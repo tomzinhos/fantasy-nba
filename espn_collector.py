@@ -19,7 +19,7 @@ BASE = (
     f"/segments/0/leagues/{LEAGUE_ID}"
 )
 # Mapeamento de posição do ESPN. Confirmar na primeira execução (ver README).
-POSITION = {0: "PG", 1: "SG", 2: "SF", 3: "PF", 4: "C", 5: "G", 6: "F", 7: "UTIL"}
+POSITION = {1: "SG", 2: "PG", 3: "SF", 4: "PF", 5: "C"}  # 0, 6 e 7 ainda não confirmados
 
 
 def get_session() -> requests.Session:
@@ -58,6 +58,7 @@ def write_rosters(data: dict, path) -> int:
                 "espn_player_id": player.get("id"),
                 "player_name": player.get("fullName"),
                 "position": POSITION.get(player.get("defaultPositionId"), player.get("defaultPositionId")),
+                "position_id": player.get("defaultPositionId"),
                 "pro_team_id": player.get("proTeamId"),
                 "injury_status": player.get("injuryStatus", "ACTIVE"),
                 "acquisition_type": entry.get("acquisitionType"),

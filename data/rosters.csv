@@ -1,0 +1,157 @@
+team_id,team_name,owner,lineup_slot,espn_player_id,player_name,position,position_id,pro_team_id,injury_status,acquisition_type
+2,NewJeans,Tom Almeida,3,4065648,Jayson Tatum,PF,4,2,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,4,3136195,Karl-Anthony Towns,C,5,18,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,6,4433255,Chet Holmgren,C,5,25,DAY_TO_DAY,DRAFT
+2,NewJeans,Tom Almeida,11,5105565,Donovan Clingan,C,5,22,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,11,4396971,Naz Reid,C,5,30,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,2,5142718,AJ Dybantsa,SF,3,27,DAY_TO_DAY,DRAFT
+2,NewJeans,Tom Almeida,0,4066354,Payton Pritchard,SG,1,2,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,1,5041955,Darryn Peterson,PG,2,26,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,5,4709138,Brandin Podziemski,PG,2,9,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,11,5144091,Jeremiah Fears,PG,2,3,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,12,4277811,Collin Sexton,PG,2,13,DAY_TO_DAY,DRAFT
+2,NewJeans,Tom Almeida,12,4397136,Saddiq Bey,SF,3,3,ACTIVE,DRAFT
+2,NewJeans,Tom Almeida,12,3138196,Cameron Johnson,SF,3,7,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,4,3112335,Nikola Jokic,C,5,7,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,0,3136193,Devin Booker,SG,1,21,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,3,3149673,Pascal Siakam,PF,4,11,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,5,3936299,Jamal Murray,SG,1,7,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,6,4395628,Zion Williamson,PF,4,3,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,2,5095151,Caleb Wilson,SF,3,4,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,1,4433627,Keyonte George,SG,1,26,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,11,3908845,John Collins,PF,4,8,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,11,2490149,CJ McCollum,PG,2,1,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,11,4222252,Isaiah Hartenstein,C,5,25,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,12,5142620,Darius Acuff Jr.,SG,1,23,ACTIVE,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,12,3995,Jrue Holiday,SG,1,22,DAY_TO_DAY,DRAFT
+3,Pedrosa's Air Ballers,Pedro Pedrosa,12,3032979,Dennis Schroder,SG,1,30,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,0,3945274,Luka Doncic,SG,1,13,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,1,4396993,Tyrese Haliburton,SG,1,11,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,5,4871145,Josh Giddey,SG,1,4,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,2,4683021,Deni Avdija,SF,3,22,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,3,3064514,Julius Randle,PF,4,17,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,4,4433136,Walker Kessler,C,5,13,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,11,3907497,Dejounte Murray,PG,2,3,DAY_TO_DAY,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,11,5105623,Kel'el Ware,C,5,15,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,6,4684742,Ausar Thompson,SF,3,8,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,11,5175643,Egor Demin,SG,1,17,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,12,4278067,Nic Claxton,C,5,4,DAY_TO_DAY,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,12,3907387,Ben Simmons,SG,1,23,ACTIVE,DRAFT
+4,Zuzzo's Gambit,Victor Caruzzo,12,4066648,Rui Hachimura,PF,4,12,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,0,3934672,Jalen Brunson,SG,1,18,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,2,4433134,Scottie Barnes,SF,3,28,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,3,4593803,Jalen Williams,PF,4,25,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,4,4066261,Bam Adebayo,C,5,14,DAY_TO_DAY,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,6,4566434,Franz Wagner,SF,3,19,DAY_TO_DAY,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,1,4433287,Brandon Miller,SF,3,30,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,11,5041935,Cameron Boozer,PF,4,29,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,5,4395651,Coby White,SG,1,30,DAY_TO_DAY,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,11,4432848,Jaime Jaquez Jr.,SF,3,15,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,11,4432639,Jabari Smith Jr.,PF,4,10,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,12,5174563,Kyshawn George,PG,2,27,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,12,3133628,Myles Turner,C,5,15,ACTIVE,DRAFT
+6,Pinetrees' Dachshunds,Filipe Rodrigues,12,4395723,Keldon Johnson,SF,3,24,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,0,4431678,Tyrese Maxey,SG,1,20,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,5,3975,Stephen Curry,SG,1,9,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,2,1966,LeBron James,SF,3,20,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,1,3078576,Derrick White,PG,2,2,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,11,4395725,Tyler Herro,PG,2,15,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,4,3059318,Joel Embiid,C,5,20,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,11,4066328,Jarrett Allen,C,5,5,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,3,4066383,Miles Bridges,SF,3,21,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,6,4437244,Jalen Green,PG,2,21,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,11,3059319,Andrew Wiggins,SF,3,14,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,12,6589,Draymond Green,PF,4,9,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,12,4397014,Quentin Grimes,PG,2,13,ACTIVE,DRAFT
+7,Thanos,Tico Loyola,12,3448,Brook Lopez,C,5,12,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,1,4594268,Anthony Edwards,PG,2,16,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,3,4701230,Jalen Johnson,PF,4,1,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,0,4396907,Darius Garland,SG,1,12,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,5,3992,James Harden,SG,1,5,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,2,4278104,Michael Porter Jr.,SF,3,17,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,6,4397688,Trey Murphy III,SF,3,3,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,4,4431680,Onyeka Okongwu,C,5,1,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,11,4251,Paul George,SF,3,2,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,11,2991230,Fred VanVleet,SG,1,10,DAY_TO_DAY,DRAFT
+9,Little River Hustlers,Thiago Ajej,11,4600663,Zach Edey,C,5,29,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,12,6440,Tobias Harris,PF,4,24,DAY_TO_DAY,DRAFT
+9,Little River Hustlers,Thiago Ajej,12,4278053,Davion Mitchell,SG,1,14,ACTIVE,DRAFT
+9,Little River Hustlers,Thiago Ajej,12,4712849,Anthony Black,SG,1,19,DAY_TO_DAY,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,0,4432166,Cade Cunningham,SG,1,8,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,2,4684740,Amen Thompson,SF,3,10,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,4,6583,Anthony Davis,C,5,27,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,3,4432573,Paolo Banchero,PF,4,19,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,1,4869342,Dyson Daniels,PG,2,1,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,5,5124612,VJ Edgecombe,PG,2,20,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,6,4711294,Matas Buzelis,SF,3,4,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,11,5160992,Alex Sarr,C,5,27,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,11,4065733,Ty Jerome,PG,2,29,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,11,2991350,Alex Caruso,PG,2,25,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,12,3064290,Aaron Gordon,PF,4,7,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,12,4433247,Jonathan Kuminga,PF,4,16,ACTIVE,DRAFT
+11,Os Coringas do Vitinho,Victor Martinoja,12,4683778,Jared McCain,PG,2,25,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,3,3032977,Giannis Antetokounmpo,PF,4,14,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,0,4277905,Trae Young,SG,1,27,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,4,4433621,Jalen Duren,C,5,8,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,1,4066320,Desmond Bane,PG,2,19,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,11,3032976,Rudy Gobert,C,5,16,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,2,3934719,OG Anunoby,SF,3,18,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,6,4431671,Jaden McDaniels,SF,3,16,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,5,4279888,Ja Morant,SG,1,22,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,11,3062679,Josh Hart,SF,3,18,DAY_TO_DAY,DRAFT
+12,Darela's Basket Union,Raul Darela,11,4576087,Peyton Watson,SF,3,5,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,12,4397140,Kevin Porter Jr.,PG,2,15,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,12,4594327,Keegan Murray,PF,4,23,ACTIVE,DRAFT
+12,Darela's Basket Union,Raul Darela,12,4395630,Devin Vassell,PG,2,24,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,2,3917376,Jaylen Brown,SF,3,20,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,4,3155942,Domantas Sabonis,C,5,23,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,1,5061575,Kon Knueppel,SF,3,30,DAY_TO_DAY,DRAFT
+13,PC Comrades,Paulo Cardoso,3,4066336,Lauri Markkanen,PF,4,26,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,6,4277961,Jaren Jackson Jr.,C,5,26,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,0,5037871,Dylan Harper,SG,1,24,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,5,4395625,RJ Barrett,SF,3,28,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,11,3064440,Zach LaVine,PG,2,23,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,11,4591725,Ryan Rollins,PG,2,15,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,11,2991070,Jerami Grant,PF,4,29,DAY_TO_DAY,DRAFT
+13,PC Comrades,Paulo Cardoso,12,6430,Jimmy Butler III,SF,3,9,OUT,DRAFT
+13,PC Comrades,Paulo Cardoso,12,4066372,Kevin Huerter,PG,2,8,ACTIVE,DRAFT
+13,PC Comrades,Paulo Cardoso,12,4278585,Collin Gillespie,SG,1,21,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,0,4278073,Shai Gilgeous-Alexander,SG,1,25,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,5,4432816,LaMelo Ball,SG,1,16,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,4,4871144,Alperen Sengun,C,5,10,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,2,3147657,Mikal Bridges,SF,3,18,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,1,4845367,Stephon Castle,SG,1,24,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,3,3978,DeMar DeRozan,SF,3,7,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,6,4869780,Derik Queen,C,5,3,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,11,4395724,Immanuel Quickley,SG,1,28,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,11,4711272,Reed Sheppard,PG,2,10,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,11,4397002,Ayo Dosunmu,PG,2,16,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,12,4873138,Ace Bailey,SF,3,26,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,12,4397424,Neemias Queta,C,5,2,ACTIVE,DRAFT
+14,Ipiranga's Drunkballers,Iago Canet,12,4277956,Jordan Poole,PG,2,3,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,2,5041939,Cooper Flagg,SF,3,6,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,1,3908809,Donovan Mitchell,PG,2,5,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,3,4432158,Evan Mobley,PF,4,5,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,0,4066457,Austin Reaves,PG,2,13,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,5,2595516,Norman Powell,PG,2,4,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,11,4278039,Nickeil Alexander-Walker,PG,2,1,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,11,6606,Damian Lillard,SG,1,22,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,4,4017837,Ivica Zubac,C,5,11,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,6,4592479,Julian Champagnie,SF,3,24,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,11,3134908,Jakob Poeltl,C,5,28,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,12,4997536,Gui Santos,SF,3,9,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,12,4431767,Christian Braun,PG,2,7,ACTIVE,DRAFT
+15,Farateam,Daniel Farati,12,3134907,Kyle Kuzma,PF,4,15,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,4,5104157,Victor Wembanyama,C,5,24,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,3,3202,Kevin Durant,PF,4,10,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,2,6450,Kawhi Leonard,SF,3,28,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,0,6442,Kyrie Irving,SG,1,6,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,11,5174983,Aday Mara,C,5,25,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,1,4066259,De'Aaron Fox,SG,1,24,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,13,3913176,Brandon Ingram,SF,3,12,OUT,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,5,3934673,Donte DiVincenzo,PG,2,16,OUT,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,11,6478,Nikola Vucevic,C,5,19,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,11,4395712,Andrew Nembhard,SG,1,11,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,12,4278049,Daniel Gafford,C,5,6,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,12,4903027,Cedric Coward,SF,3,29,ACTIVE,DRAFT
+16,Drinho Magic,Pedro Vítor Rodrigues da Silva,6,4278594,Naji Marshall,SF,3,6,ACTIVE,DRAFT

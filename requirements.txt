@@ -1,0 +1,4 @@
+requests
+pandas
+nba_api
+python-dotenv

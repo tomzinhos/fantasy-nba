@@ -1,0 +1,121 @@
+semana,mandante,visitante
+1,Farateam,Zuzzo's Gambit
+1,Ipiranga's Drunkballers,PC Comrades
+1,Little River Hustlers,Os Coringas do Vitinho
+1,NewJeans,Darela's Basket Union
+1,Pinetrees' Dachshunds,Drinho Magic
+1,Thanos,Pedrosa's Air Ballers
+2,Darela's Basket Union,Pinetrees' Dachshunds
+2,Drinho Magic,Zuzzo's Gambit
+2,Ipiranga's Drunkballers,Little River Hustlers
+2,NewJeans,Farateam
+2,PC Comrades,Thanos
+2,Pedrosa's Air Ballers,Os Coringas do Vitinho
+3,Darela's Basket Union,Drinho Magic
+3,Os Coringas do Vitinho,Ipiranga's Drunkballers
+3,PC Comrades,Pedrosa's Air Ballers
+3,Pinetrees' Dachshunds,Farateam
+3,Thanos,Little River Hustlers
+3,Zuzzo's Gambit,NewJeans
+4,Drinho Magic,NewJeans
+4,Farateam,Darela's Basket Union
+4,Little River Hustlers,PC Comrades
+4,Pedrosa's Air Ballers,Ipiranga's Drunkballers
+4,Pinetrees' Dachshunds,Zuzzo's Gambit
+4,Thanos,Os Coringas do Vitinho
+5,Darela's Basket Union,Zuzzo's Gambit
+5,Farateam,Drinho Magic
+5,Ipiranga's Drunkballers,Thanos
+5,Little River Hustlers,Pedrosa's Air Ballers
+5,NewJeans,Pinetrees' Dachshunds
+5,PC Comrades,Os Coringas do Vitinho
+6,Ipiranga's Drunkballers,NewJeans
+6,Little River Hustlers,Farateam
+6,Os Coringas do Vitinho,Zuzzo's Gambit
+6,PC Comrades,Darela's Basket Union
+6,Pedrosa's Air Ballers,Drinho Magic
+6,Thanos,Pinetrees' Dachshunds
+7,Darela's Basket Union,Ipiranga's Drunkballers
+7,Drinho Magic,Thanos
+7,Farateam,Pedrosa's Air Ballers
+7,NewJeans,Little River Hustlers
+7,Pinetrees' Dachshunds,Os Coringas do Vitinho
+7,Zuzzo's Gambit,PC Comrades
+8,Ipiranga's Drunkballers,Zuzzo's Gambit
+8,Little River Hustlers,Darela's Basket Union
+8,Os Coringas do Vitinho,Drinho Magic
+8,PC Comrades,Pinetrees' Dachshunds
+8,Pedrosa's Air Ballers,NewJeans
+8,Thanos,Farateam
+9,Darela's Basket Union,Pedrosa's Air Ballers
+9,Drinho Magic,PC Comrades
+9,Farateam,Os Coringas do Vitinho
+9,NewJeans,Thanos
+9,Pinetrees' Dachshunds,Ipiranga's Drunkballers
+9,Zuzzo's Gambit,Little River Hustlers
+10,Ipiranga's Drunkballers,Drinho Magic
+10,Little River Hustlers,Pinetrees' Dachshunds
+10,Os Coringas do Vitinho,NewJeans
+10,PC Comrades,Farateam
+10,Pedrosa's Air Ballers,Zuzzo's Gambit
+10,Thanos,Darela's Basket Union
+11,Darela's Basket Union,Os Coringas do Vitinho
+11,Drinho Magic,Little River Hustlers
+11,Farateam,Ipiranga's Drunkballers
+11,NewJeans,PC Comrades
+11,Pinetrees' Dachshunds,Pedrosa's Air Ballers
+11,Zuzzo's Gambit,Thanos
+12,Darela's Basket Union,NewJeans
+12,Drinho Magic,Pinetrees' Dachshunds
+12,Os Coringas do Vitinho,Little River Hustlers
+12,PC Comrades,Ipiranga's Drunkballers
+12,Pedrosa's Air Ballers,Thanos
+12,Zuzzo's Gambit,Farateam
+13,Farateam,NewJeans
+13,Little River Hustlers,Ipiranga's Drunkballers
+13,Os Coringas do Vitinho,Pedrosa's Air Ballers
+13,Pinetrees' Dachshunds,Darela's Basket Union
+13,Thanos,PC Comrades
+13,Zuzzo's Gambit,Drinho Magic
+14,Drinho Magic,Darela's Basket Union
+14,Farateam,Pinetrees' Dachshunds
+14,Ipiranga's Drunkballers,Os Coringas do Vitinho
+14,Little River Hustlers,Thanos
+14,NewJeans,Zuzzo's Gambit
+14,Pedrosa's Air Ballers,PC Comrades
+15,Darela's Basket Union,Farateam
+15,Ipiranga's Drunkballers,Pedrosa's Air Ballers
+15,NewJeans,Drinho Magic
+15,Os Coringas do Vitinho,Thanos
+15,PC Comrades,Little River Hustlers
+15,Zuzzo's Gambit,Pinetrees' Dachshunds
+16,Drinho Magic,Farateam
+16,Os Coringas do Vitinho,PC Comrades
+16,Pedrosa's Air Ballers,Little River Hustlers
+16,Pinetrees' Dachshunds,NewJeans
+16,Thanos,Ipiranga's Drunkballers
+16,Zuzzo's Gambit,Darela's Basket Union
+17,Ipiranga's Drunkballers,NewJeans
+17,Little River Hustlers,Farateam
+17,Os Coringas do Vitinho,Zuzzo's Gambit
+17,PC Comrades,Darela's Basket Union
+17,Pedrosa's Air Ballers,Drinho Magic
+17,Thanos,Pinetrees' Dachshunds
+18,Darela's Basket Union,Ipiranga's Drunkballers
+18,Drinho Magic,Thanos
+18,Farateam,Pedrosa's Air Ballers
+18,NewJeans,Little River Hustlers
+18,Pinetrees' Dachshunds,Os Coringas do Vitinho
+18,Zuzzo's Gambit,PC Comrades
+19,Ipiranga's Drunkballers,Zuzzo's Gambit
+19,Little River Hustlers,Darela's Basket Union
+19,Os Coringas do Vitinho,Drinho Magic
+19,PC Comrades,Pinetrees' Dachshunds
+19,Pedrosa's Air Ballers,NewJeans
+19,Thanos,Farateam
+20,Darela's Basket Union,Pedrosa's Air Ballers
+20,Drinho Magic,PC Comrades
+20,Farateam,Os Coringas do Vitinho
+20,NewJeans,Thanos
+20,Pinetrees' Dachshunds,Ipiranga's Drunkballers
+20,Zuzzo's Gambit,Little River Hustlers

@@ -14,8 +14,10 @@ Teto (potencial desta temporada, em fantasy points por jogo):
   rookies da temporada passada; top-2 do draft (ROOKIE_TOP) usam o percentil 90.
   Sem teto_params.json, usa multiplicadores de fallback (1.03 / 1.10 / 1.15; rookies 1.10 / 1.25).
 
-Starting five: uma vaga por posição (PG, SG, SF, PF, C), preenchida com o melhor saudável daquela
-posição. Se a posição não tiver ninguém saudável, a vaga vai para o melhor disponível (marcado com *).
+Starting five: uma vaga por posição (PG, SG, SF, PF, C). Cada jogador pode ocupar qualquer vaga para a
+qual é elegível no ESPN (eligibleSlots; ex.: um PF/C pode ser o C). A escolha maximiza a soma total do
+valor atual entre as combinações válidas. Se uma vaga não tiver elegível saudável, ela vai para o melhor
+disponível (marcado com *).
 Depth: próximos 8 melhores saudáveis fora do starting five.
 
 Uso:
@@ -26,7 +28,7 @@ import csv
 import json
 from collections import defaultdict
 
-from config import DATA_DIR, POSITION
+from config import DATA_DIR, POSITION, ELIGIBLE_SLOT
 
 W_PREV, W_PROJ = 0.8, 0.2
 OUT_STATUSES = {"OUT", "INJURY_RESERVE", "SUSPENSION"}
@@ -68,13 +70,6 @@ def teto_fp(name, prev, pj):
         return pj * (1.25 if name in ROOKIE_TOP else 1.10)
     base = max(x for x in (prev, pj) if x is not None)
     return base * (1.03 if base >= 50 else 1.10 if base >= 35 else 1.15)
-    if age <= 22:
-        return 1.15
-    if age <= 24:
-        return 1.10
-    if age <= 26:
-        return 1.04
-    return 1.0
 
 
 def load():
@@ -88,6 +83,8 @@ def load():
         age = f(base.get(r["player_name"], {}).get("2526_AGE"))
         name = r["player_name"]
         status = r["injury_status"]
+        slots = {int(x) for x in r.get("eligible_slots", "").split("|") if x}
+        elegiveis = [ELIGIBLE_SLOT[s] for s in sorted(slots) if s in ELIGIBLE_SLOT]
         out = status in OUT_STATUSES
 
         if prev is not None and pj is not None:
@@ -104,6 +101,7 @@ def load():
         players.append({
             "owner": r["owner"], "team_name": r["team_name"], "player_name": name,
             "position": POSITION.get(int(r["position_id"]), r["position"]) if r.get("position_id") else r["position"], "injury_status": status, "age": age or "",
+            "posicoes_elegiveis": "/".join(elegiveis), "_elegiveis": set(elegiveis),
             "prev_fp": prev if prev is not None else "", "proj_fp": pj if pj is not None else "",
             "proj_total_season": proj_total if proj_total is not None else "",
             "value": round(value, 2) if value is not None else "",
@@ -115,21 +113,47 @@ def load():
     return players
 
 
-def best_five(ps):
+def best_five(ps, top_n=8):
+    """Melhor combinação de 5 titulares (uma vaga por posição, jogador elegível e saudável).
+
+    Enumera as combinações entre os top_n elegíveis de cada vaga e fica com a de maior soma.
+    Vaga sem nenhum elegível saudável (ou sem combinação possível) recebe o melhor disponível (*).
+    """
     healthy = sorted([p for p in ps if p["saudavel"]], key=lambda x: x["value_atual"], reverse=True)
-    used, lineup = set(), {}
+    cands = {s: [p for p in healthy if s in p["_elegiveis"]][:top_n] for s in SLOTS}
+    SKIP_PENALTY = 1000.0  # deixar vaga vazia só se não houver alternativa
+
+    best = {"score": None, "pick": None}
+
+    def rec(i, used, score, pick):
+        if i == len(SLOTS):
+            if best["score"] is None or score > best["score"]:
+                best["score"], best["pick"] = score, dict(pick)
+            return
+        slot = SLOTS[i]
+        opts = [p for p in cands[slot] if p["player_name"] not in used]
+        if not opts:
+            rec(i + 1, used, score - SKIP_PENALTY, pick)
+            return
+        for p in opts:
+            pick[slot] = p
+            rec(i + 1, used | {p["player_name"]}, score + p["value_atual"], pick)
+            del pick[slot]
+
+    rec(0, frozenset(), 0.0, {})
+    chosen = best["pick"] or {}
+
+    used = {p["player_name"] for p in chosen.values()}
+    lineup = {}
     for slot in SLOTS:
-        pick = next((p for p in healthy if p["position"] == slot and p["player_name"] not in used), None)
-        if pick:
-            lineup[slot] = (pick, False)
-            used.add(pick["player_name"])
+        if slot in chosen:
+            lineup[slot] = (chosen[slot], False)
     for slot in SLOTS:
-        if slot in lineup:
-            continue
-        pick = next((p for p in healthy if p["player_name"] not in used), None)
-        if pick:
-            lineup[slot] = (pick, True)
-            used.add(pick["player_name"])
+        if slot not in lineup:
+            pick = next((p for p in healthy if p["player_name"] not in used), None)
+            if pick:
+                lineup[slot] = (pick, True)
+                used.add(pick["player_name"])
     depth = [p for p in healthy if p["player_name"] not in used][:8]
     return lineup, depth
 
@@ -170,8 +194,9 @@ def main():
     players = load()
     teams = team_table(players)
 
+    cols = [k for k in players[0].keys() if not k.startswith("_")]
     with open(DATA_DIR / "player_values.csv", "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=list(players[0].keys()))
+        w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore")
         w.writeheader()
         w.writerows(players)
 

@@ -21,8 +21,9 @@ Abre direto no Excel, Google Sheets ou Python (`pandas.read_csv`).
 
 | Coluna | Significado |
 |---|---|
-| `time`, `dono` | Time e dono na liga |
+| `time`, `conferencia`, `dono` | Time, conferência (East ou West) e dono na liga |
 | `jogador`, `posicao`, `idade` | Posição padrão do ESPN (PG, SG, SF, PF, C) |
+| `posicoes_elegiveis` | Todas as posições em que o jogador pode ser escalado no ESPN (ex.: `SF/PF/F`) |
 | `status_lesao` | `ACTIVE`, `DAY_TO_DAY`, `OUT`, `INJURY_RESERVE`... |
 | `pick_draft` | Pick geral no draft (1 a 156) |
 | `fp_jogo_2025_26` | Média real de fantasy points por jogo na temporada passada |
@@ -68,7 +69,7 @@ python make_report.py
 
 | # | Script | O que faz | Saída (`data/`) |
 |---|---|---|---|
-| 1 | `espn_collector.py` | Rosters, lesões e draft da liga | `rosters.csv`, `draft.csv` |
+| 1 | `espn_collector.py` | Rosters (com posições elegíveis), lesões, draft, times com conferência e agenda | `rosters.csv`, `draft.csv`, `teams.csv`, `schedule.csv` |
 | 2 | `nba_stats.py` | Médias por jogo da NBA (2024-25, 2025-26, pré-temporada 2026-27) | `nba_player_stats.csv` |
 | 3 | `espn_projections.py` | Projeção ESPN 2026-27 e média real 2025-26 em FP | `espn_projections.csv` |
 | 4 | `build_base.py` | Junta rosters e stats da NBA por nome | `players_base.csv` |
@@ -76,6 +77,8 @@ python make_report.py
 | 6 | `rankings.py` | Power rank, projeção, starting five, depth e teto | `rankings.md`, `player_values.csv` |
 | 7 | `export_csv.py` | CSV amigável dos elencos | `elencos_atuais.csv` |
 | 8 | `make_report.py` | PDF com rankings e uma página por time | `reports/*.pdf` |
+
+Os confrontos ficam em `data/schedule.csv` (20 semanas, 6 jogos por semana). As conferências ficam em `data/teams.csv`.
 
 Usando outra liga? Troque `LEAGUE_ID` em `config.py` (o número que aparece na URL da liga).
 
@@ -102,8 +105,9 @@ Quem quiser propor melhorias: fork, branch, pull request.
 
 - **Valor atual** (FP por jogo, scoring da liga): 80% média real 2025-26 + 20% projeção ESPN 2026-27. Rookies usam a projeção. `OUT`, `INJURY_RESERVE` e `SUSPENSION` valem 0; `DAY_TO_DAY` conta como saudável.
 - **Power rank:** soma dos 10 melhores valores do elenco.
-- **Starting five:** uma vaga por posição (PG, SG, SF, PF, C) com o melhor saudável da posição; se faltar, entra o melhor disponível de outra posição (marcado com `*`).
+- **Starting five:** uma vaga por posição (PG, SG, SF, PF, C). Cada jogador pode ocupar qualquer vaga para a qual é elegível no ESPN (um PF que também é C pode ser o C). A escolha é a combinação saudável de maior soma. Se uma vaga não tiver elegível saudável, entra o melhor disponível (marcado com `*`).
 - **Depth:** os 8 melhores saudáveis fora do starting five.
+- **Conferências e playoffs:** 12 times em duas conferências de 6 (East e West), 20 semanas regulares e 4 times nos playoffs.
 - **Teto:** projeção ESPN × percentil 80 de (real ÷ projeção) do nível do jogador na temporada passada (top 50, 51-150, 151+). Rookies usam a turma de rookies de 2025-26 (até 24 anos); os dois primeiros picks do draft usam o percentil 90. O teto do time soma os 10 maiores.
 - **Projeção de temporada:** soma das projeções totais do ESPN (inclui lesionados).
 - **Rating (PDF):** média das posições nos 5 rankings; 4 melhores Overweight, 4 do meio Equal-weight, 4 últimos Underweight.

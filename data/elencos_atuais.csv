@@ -1,157 +1,157 @@
-time,dono,jogador,posicao,idade,status_lesao,pick_draft,fp_jogo_2025_26,fp_jogo_proj_2026_27,fp_total_proj_2026_27,valor_atual,teto,saudavel,espn_player_id
-Darela's Basket Union,Raul Darela,Giannis Antetokounmpo,PF,31,ACTIVE,7,49.36,57.55,3856.0,51.0,58.41,True,3032977
-Darela's Basket Union,Raul Darela,Kevin Porter Jr.,SG,26,ACTIVE,127,42.05,33.02,2179.0,40.24,35.93,True,4397140
-Darela's Basket Union,Raul Darela,Jalen Duren,C,22,ACTIVE,31,38.77,42.21,3039.0,39.46,42.84,True,4433621
-Darela's Basket Union,Raul Darela,Trae Young,PG,27,ACTIVE,18,34.4,44.35,3149.0,36.39,45.02,True,4277905
-Darela's Basket Union,Raul Darela,Desmond Bane,SG,28,ACTIVE,42,35.62,38.25,2754.0,36.15,41.62,True,4066320
-Darela's Basket Union,Raul Darela,Ja Morant,PG,26,ACTIVE,90,34.4,37.54,2440.0,35.03,40.84,True,4279888
-Darela's Basket Union,Raul Darela,Rudy Gobert,C,34,ACTIVE,55,33.01,34.31,2470.0,33.27,37.33,True,3032976
-Darela's Basket Union,Raul Darela,OG Anunoby,SF,28,ACTIVE,66,33.04,33.09,2250.0,33.05,36.0,True,3934719
-Darela's Basket Union,Raul Darela,Josh Hart,SF,31,DAY_TO_DAY,103,31.8,33.01,2245.0,32.04,35.91,True,3062679
-Darela's Basket Union,Raul Darela,Jaden McDaniels,SF,25,ACTIVE,79,30.75,29.73,2200.0,30.55,32.35,True,4431671
-Darela's Basket Union,Raul Darela,Keegan Murray,PF,25,ACTIVE,138,29.87,29.28,2079.0,29.75,31.86,True,4594327
-Darela's Basket Union,Raul Darela,Peyton Watson,SF,23,ACTIVE,114,28.74,29.25,2077.0,28.84,31.82,True,4576087
-Darela's Basket Union,Raul Darela,Devin Vassell,SG,25,ACTIVE,151,26.72,26.83,1851.0,26.74,29.19,True,4395630
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Victor Wembanyama,C,22,ACTIVE,2,55.41,60.51,4054.0,56.43,61.42,True,5104157
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Kawhi Leonard,SF,35,ACTIVE,26,48.66,45.75,2882.0,48.08,46.44,True,6450
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Kevin Durant,PF,37,ACTIVE,23,43.83,42.9,3089.0,43.64,43.54,True,3202
-Drinho Magic,Pedro Vítor Rodrigues da Silva,De'Aaron Fox,PG,28,ACTIVE,71,36.71,38.15,2709.0,37.0,41.51,True,4066259
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Nikola Vucevic,C,35,ACTIVE,98,33.61,30.19,2174.0,32.93,32.85,True,6478
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Andrew Nembhard,PG,26,ACTIVE,119,34.05,28.18,2001.0,32.88,30.66,True,4395712
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Cedric Coward,SF,22,ACTIVE,143,26.39,29.74,2052.0,27.06,32.36,True,4903027
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Naji Marshall,SF,28,ACTIVE,146,28.09,22.39,1567.0,26.95,27.34,True,4278594
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Daniel Gafford,C,27,ACTIVE,122,25.15,29.32,1994.0,25.98,31.9,True,4278049
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Kyrie Irving,PG,,ACTIVE,47,0.0,44.2,2608.0,8.84,44.86,True,6442
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Aday Mara,C,,ACTIVE,50,,,,0.0,,True,5174983
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Brandon Ingram,SF,28,OUT,74,35.61,38.47,2116.0,0.0,41.86,False,3913176
-Drinho Magic,Pedro Vítor Rodrigues da Silva,Donte DiVincenzo,SG,29,OUT,95,28.51,23.0,92.0,0.0,28.08,False,3934673
-Farateam,Daniel Farati,Donovan Mitchell,SG,29,ACTIVE,14,46.9,46.48,3300.0,46.82,47.18,True,3908809
-Farateam,Daniel Farati,Evan Mobley,PF,25,ACTIVE,35,40.89,43.33,2860.0,41.38,43.98,True,4432158
-Farateam,Daniel Farati,Cooper Flagg,SF,19,ACTIVE,11,39.69,45.36,3266.0,40.82,46.04,True,5041939
-Farateam,Daniel Farati,Austin Reaves,SG,28,ACTIVE,38,40.06,43.33,2903.0,40.71,43.98,True,4066457
-Farateam,Daniel Farati,Nickeil Alexander-Walker,SG,27,ACTIVE,62,36.38,34.05,2690.0,35.91,37.05,True,4278039
-Farateam,Daniel Farati,Norman Powell,SG,33,ACTIVE,59,32.53,35.97,2482.0,33.22,39.14,True,2595516
-Farateam,Daniel Farati,Ivica Zubac,C,29,ACTIVE,86,31.44,35.46,2447.0,32.24,38.58,True,4017837
-Farateam,Daniel Farati,Jakob Poeltl,C,30,ACTIVE,110,27.41,31.65,2089.0,28.26,34.44,True,3134908
-Farateam,Daniel Farati,Christian Braun,SG,25,ACTIVE,134,24.89,23.14,1504.0,24.54,28.25,True,4431767
-Farateam,Daniel Farati,Julian Champagnie,SF,25,ACTIVE,107,24.23,23.34,1914.0,24.05,28.5,True,4592479
-Farateam,Daniel Farati,Kyle Kuzma,PF,30,ACTIVE,155,24.0,23.28,1583.0,23.86,28.42,True,3134907
-Farateam,Daniel Farati,Gui Santos,SF,24,ACTIVE,131,20.32,19.7,1300.0,20.2,24.05,True,4997536
-Farateam,Daniel Farati,Damian Lillard,PG,,ACTIVE,83,0.0,38.62,2510.0,7.72,39.2,True,6606
-Ipiranga's Drunkballers,Iago Canet,Shai Gilgeous-Alexander,PG,27,ACTIVE,3,55.49,56.84,4320.0,55.76,57.69,True,4278073
-Ipiranga's Drunkballers,Iago Canet,Alperen Sengun,C,23,ACTIVE,27,43.86,43.01,3097.0,43.69,43.66,True,4871144
-Ipiranga's Drunkballers,Iago Canet,LaMelo Ball,PG,24,ACTIVE,22,39.69,46.43,3157.0,41.04,47.13,True,4432816
-Ipiranga's Drunkballers,Iago Canet,Stephon Castle,PG,21,ACTIVE,51,35.01,36.86,2654.0,35.38,40.1,True,4845367
-Ipiranga's Drunkballers,Iago Canet,Immanuel Quickley,PG,27,ACTIVE,94,35.49,34.92,2270.0,35.38,37.99,True,4395724
-Ipiranga's Drunkballers,Iago Canet,Mikal Bridges,SF,29,ACTIVE,46,33.3,32.84,2693.0,33.21,35.73,True,3147657
-Ipiranga's Drunkballers,Iago Canet,DeMar DeRozan,SF,36,ACTIVE,70,32.21,29.83,2297.0,31.73,32.46,True,3978
-Ipiranga's Drunkballers,Iago Canet,Reed Sheppard,SG,22,ACTIVE,99,29.73,29.92,2274.0,29.77,32.55,True,4711272
-Ipiranga's Drunkballers,Iago Canet,Ayo Dosunmu,SG,26,ACTIVE,118,28.97,30.36,2186.0,29.25,33.03,True,4397002
-Ipiranga's Drunkballers,Iago Canet,Neemias Queta,C,26,ACTIVE,142,29.68,27.19,1958.0,29.18,29.58,True,4397424
-Ipiranga's Drunkballers,Iago Canet,Derik Queen,C,21,ACTIVE,75,28.33,30.49,2317.0,28.76,33.17,True,4869780
-Ipiranga's Drunkballers,Iago Canet,Ace Bailey,SF,19,ACTIVE,123,24.89,26.75,1926.0,25.26,29.1,True,4873138
-Ipiranga's Drunkballers,Iago Canet,Jordan Poole,SG,27,ACTIVE,147,20.9,21.98,1451.0,21.12,26.84,True,4277956
-Little River Hustlers,Thiago Ajej,Jalen Johnson,PF,24,ACTIVE,17,48.56,49.99,3599.0,48.85,50.74,True,4701230
-Little River Hustlers,Thiago Ajej,Anthony Edwards,SG,24,ACTIVE,8,45.57,47.25,3402.0,45.91,47.96,True,4594268
-Little River Hustlers,Thiago Ajej,James Harden,PG,36,ACTIVE,41,43.5,42.08,3072.0,43.22,42.71,True,3992
-Little River Hustlers,Thiago Ajej,Trey Murphy III,SF,26,ACTIVE,65,40.5,36.75,2499.0,39.75,39.98,True,4397688
-Little River Hustlers,Thiago Ajej,Michael Porter Jr.,SF,28,ACTIVE,56,39.31,38.93,2686.0,39.23,39.51,True,4278104
-Little River Hustlers,Thiago Ajej,Paul George,SF,36,ACTIVE,89,35.27,38.47,2116.0,35.91,41.86,True,4251
-Little River Hustlers,Thiago Ajej,Darius Garland,PG,26,ACTIVE,32,34.42,40.38,2786.0,35.61,40.99,True,4396907
-Little River Hustlers,Thiago Ajej,Onyeka Okongwu,C,25,ACTIVE,80,35.11,34.81,2506.0,35.05,37.87,True,4431680
-Little River Hustlers,Thiago Ajej,Zach Edey,C,24,ACTIVE,113,34.18,33.16,2056.0,33.98,36.08,True,4600663
-Little River Hustlers,Thiago Ajej,Anthony Black,PG,22,DAY_TO_DAY,152,29.84,28.16,1943.0,29.5,30.64,True,4712849
-Little River Hustlers,Thiago Ajej,Tobias Harris,PF,33,DAY_TO_DAY,128,27.03,30.07,2135.0,27.64,32.72,True,6440
-Little River Hustlers,Thiago Ajej,Davion Mitchell,PG,27,ACTIVE,137,27.19,25.52,1812.0,26.86,31.16,True,4278053
-Little River Hustlers,Thiago Ajej,Fred VanVleet,PG,,DAY_TO_DAY,104,0.0,33.43,2273.0,6.69,36.37,True,2991230
-NewJeans,Tom Almeida,Jayson Tatum,PF,28,ACTIVE,4,42.62,48.1,3367.0,43.72,48.82,True,4065648
-NewJeans,Tom Almeida,Karl-Anthony Towns,C,30,ACTIVE,21,39.29,44.09,3086.0,40.25,44.75,True,3136195
-NewJeans,Tom Almeida,Chet Holmgren,C,24,DAY_TO_DAY,28,38.04,37.94,2466.0,38.02,41.28,True,4433255
-NewJeans,Tom Almeida,Donovan Clingan,C,22,ACTIVE,45,35.1,33.86,2472.0,34.85,36.84,True,5105565
-NewJeans,Tom Almeida,Payton Pritchard,PG,28,ACTIVE,76,33.48,31.56,2272.0,33.1,34.34,True,4066354
-NewJeans,Tom Almeida,AJ Dybantsa,SF,,DAY_TO_DAY,69,,32.92,2370.0,32.92,38.06,True,5142718
-NewJeans,Tom Almeida,Naz Reid,C,26,ACTIVE,52,29.6,35.51,2699.0,30.78,38.63,True,4396971
-NewJeans,Tom Almeida,Saddiq Bey,SF,27,ACTIVE,141,30.67,25.87,1837.0,29.71,31.59,True,4397136
-NewJeans,Tom Almeida,Darryn Peterson,SG,,ACTIVE,93,,29.07,2122.0,29.07,33.6,True,5041955
-NewJeans,Tom Almeida,Brandin Podziemski,SG,23,ACTIVE,100,28.49,30.84,2436.0,28.96,33.55,True,4709138
-NewJeans,Tom Almeida,Collin Sexton,SG,27,DAY_TO_DAY,124,25.97,28.76,2013.0,26.53,31.29,True,4277811
-NewJeans,Tom Almeida,Jeremiah Fears,SG,19,ACTIVE,117,25.56,27.3,2102.0,25.91,29.7,True,5144091
-NewJeans,Tom Almeida,Cameron Johnson,SF,30,ACTIVE,148,25.06,26.09,1774.0,25.27,31.86,True,3138196
-Os Coringas do Vitinho,Victor Martinoja,Cade Cunningham,PG,24,ACTIVE,5,50.41,50.45,3481.0,50.42,51.21,True,4432166
-Os Coringas do Vitinho,Victor Martinoja,Anthony Davis,C,33,ACTIVE,29,43.5,49.56,3023.0,44.71,50.3,True,6583
-Os Coringas do Vitinho,Victor Martinoja,Amen Thompson,SF,23,ACTIVE,20,40.43,39.96,3117.0,40.34,40.56,True,4684740
-Os Coringas do Vitinho,Victor Martinoja,Paolo Banchero,PF,23,ACTIVE,44,37.86,39.0,2691.0,38.09,39.58,True,4432573
-Os Coringas do Vitinho,Victor Martinoja,Ty Jerome,SG,28,ACTIVE,101,37.13,39.8,2547.0,37.66,40.4,True,4065733
-Os Coringas do Vitinho,Victor Martinoja,Alex Sarr,C,21,ACTIVE,92,36.48,36.61,2416.0,36.51,39.83,True,5160992
-Os Coringas do Vitinho,Victor Martinoja,Dyson Daniels,SG,23,ACTIVE,53,36.46,35.65,2674.0,36.3,38.79,True,4869342
-Os Coringas do Vitinho,Victor Martinoja,VJ Edgecombe,SG,20,ACTIVE,68,34.0,33.69,2426.0,33.94,36.65,True,5124612
-Os Coringas do Vitinho,Victor Martinoja,Matas Buzelis,SF,21,ACTIVE,77,31.55,32.54,2408.0,31.75,35.4,True,4711294
-Os Coringas do Vitinho,Victor Martinoja,Aaron Gordon,PF,30,ACTIVE,125,29.22,28.91,1908.0,29.16,31.45,True,3064290
-Os Coringas do Vitinho,Victor Martinoja,Jonathan Kuminga,PF,23,ACTIVE,140,21.67,26.25,1759.0,22.59,28.56,True,4433247
-Os Coringas do Vitinho,Victor Martinoja,Alex Caruso,SG,32,ACTIVE,116,17.5,24.04,1659.0,18.81,29.35,True,2991350
-Os Coringas do Vitinho,Victor Martinoja,Jared McCain,SG,22,ACTIVE,149,14.06,20.19,1393.0,15.29,24.65,True,4683778
-PC Comrades,Paulo Cardoso,Jaylen Brown,SF,29,ACTIVE,12,43.59,38.61,2741.0,42.59,42.01,True,3917376
-PC Comrades,Paulo Cardoso,Lauri Markkanen,PF,29,ACTIVE,37,42.05,38.65,2667.0,41.37,39.23,True,4066336
-PC Comrades,Paulo Cardoso,Domantas Sabonis,C,30,ACTIVE,13,34.84,46.7,3222.0,37.21,47.4,True,3155942
-PC Comrades,Paulo Cardoso,Ryan Rollins,SG,23,ACTIVE,108,36.53,31.86,2198.0,35.6,34.66,True,4591725
-PC Comrades,Paulo Cardoso,Jaren Jackson Jr.,C,26,ACTIVE,60,34.88,38.11,2363.0,35.53,41.46,True,4277961
-PC Comrades,Paulo Cardoso,Kon Knueppel,SF,20,DAY_TO_DAY,36,32.69,35.17,2743.0,33.19,38.26,True,5061575
-PC Comrades,Paulo Cardoso,RJ Barrett,SF,26,ACTIVE,84,32.02,32.56,2149.0,32.13,35.43,True,4395625
-PC Comrades,Paulo Cardoso,Collin Gillespie,PG,27,ACTIVE,156,29.7,28.48,2079.0,29.46,30.99,True,4278585
-PC Comrades,Paulo Cardoso,Zach LaVine,SG,31,ACTIVE,85,28.13,32.02,1953.0,28.91,34.84,True,3064440
-PC Comrades,Paulo Cardoso,Jerami Grant,PF,32,DAY_TO_DAY,109,27.81,26.99,1835.0,27.65,29.37,True,2991070
-PC Comrades,Paulo Cardoso,Dylan Harper,PG,20,ACTIVE,61,25.09,32.26,2323.0,26.52,35.1,True,5037871
-PC Comrades,Paulo Cardoso,Kevin Huerter,SG,27,ACTIVE,133,22.54,22.86,1577.0,22.6,27.91,True,4066372
-PC Comrades,Paulo Cardoso,Jimmy Butler III,SF,36,OUT,132,39.05,38.77,1512.0,0.0,39.35,False,6430
-Pedrosa's Air Ballers,Pedro Pedrosa,Nikola Jokic,C,31,ACTIVE,1,66.31,67.19,4838.0,66.49,68.2,True,3112335
-Pedrosa's Air Ballers,Pedro Pedrosa,Jamal Murray,PG,29,ACTIVE,48,46.64,43.93,3031.0,46.1,44.59,True,3936299
-Pedrosa's Air Ballers,Pedro Pedrosa,Devin Booker,PG,29,ACTIVE,24,39.22,43.24,3113.0,40.02,43.89,True,3136193
-Pedrosa's Air Ballers,Pedro Pedrosa,Pascal Siakam,PF,32,ACTIVE,25,39.03,41.11,3042.0,39.45,41.73,True,3149673
-Pedrosa's Air Ballers,Pedro Pedrosa,Keyonte George,PG,22,ACTIVE,73,39.07,36.76,2500.0,38.61,39.99,True,4433627
-Pedrosa's Air Ballers,Pedro Pedrosa,Zion Williamson,PF,25,ACTIVE,49,35.6,39.97,2558.0,36.47,40.57,True,4395628
-Pedrosa's Air Ballers,Pedro Pedrosa,Caleb Wilson,SF,,ACTIVE,72,,34.9,2478.0,34.9,39.75,True,5095151
-Pedrosa's Air Ballers,Pedro Pedrosa,Jrue Holiday,PG,36,DAY_TO_DAY,144,33.08,28.07,1909.0,32.08,30.54,True,3995
-Pedrosa's Air Ballers,Pedro Pedrosa,CJ McCollum,SG,34,ACTIVE,97,31.86,32.44,2368.0,31.98,35.29,True,2490149
-Pedrosa's Air Ballers,Pedro Pedrosa,Darius Acuff Jr.,PG,,ACTIVE,121,,30.4,2219.0,30.4,34.63,True,5142620
-Pedrosa's Air Ballers,Pedro Pedrosa,Isaiah Hartenstein,C,28,ACTIVE,120,30.0,30.52,1953.0,30.1,33.21,True,4222252
-Pedrosa's Air Ballers,Pedro Pedrosa,John Collins,PF,28,ACTIVE,96,26.35,31.78,2161.0,27.44,34.58,True,3908845
-Pedrosa's Air Ballers,Pedro Pedrosa,Dennis Schroder,PG,32,ACTIVE,145,22.36,23.0,1656.0,22.49,28.08,True,3032979
-Pinetrees' Dachshunds,Filipe Rodrigues,Scottie Barnes,SF,24,ACTIVE,16,44.05,43.68,3145.0,43.98,44.34,True,4433134
-Pinetrees' Dachshunds,Filipe Rodrigues,Jalen Brunson,PG,29,ACTIVE,9,42.18,43.83,3156.0,42.51,44.49,True,3934672
-Pinetrees' Dachshunds,Filipe Rodrigues,Bam Adebayo,C,28,DAY_TO_DAY,40,39.23,39.63,2893.0,39.31,40.22,True,4066261
-Pinetrees' Dachshunds,Filipe Rodrigues,Jalen Williams,PF,25,ACTIVE,33,34.3,40.96,2867.0,35.63,41.57,True,4593803
-Pinetrees' Dachshunds,Filipe Rodrigues,Franz Wagner,SF,24,DAY_TO_DAY,57,33.88,38.64,2550.0,34.83,39.22,True,4566434
-Pinetrees' Dachshunds,Filipe Rodrigues,Brandon Miller,SF,23,ACTIVE,64,34.18,37.41,2544.0,34.83,40.7,True,4433287
-Pinetrees' Dachshunds,Filipe Rodrigues,Cameron Boozer,PF,,ACTIVE,81,,34.33,2472.0,34.33,39.1,True,5041935
-Pinetrees' Dachshunds,Filipe Rodrigues,Kyshawn George,SG,22,ACTIVE,129,31.23,30.15,1990.0,31.01,32.8,True,5174563
-Pinetrees' Dachshunds,Filipe Rodrigues,Jabari Smith Jr.,PF,23,ACTIVE,112,30.64,27.64,2018.0,30.04,30.07,True,4432639
-Pinetrees' Dachshunds,Filipe Rodrigues,Jaime Jaquez Jr.,SF,25,ACTIVE,105,29.81,28.22,2088.0,29.49,30.7,True,4432848
-Pinetrees' Dachshunds,Filipe Rodrigues,Myles Turner,C,30,ACTIVE,136,27.42,28.41,2017.0,27.62,30.91,True,3133628
-Pinetrees' Dachshunds,Filipe Rodrigues,Coby White,PG,26,DAY_TO_DAY,88,26.12,32.86,2366.0,27.47,35.75,True,4395651
-Pinetrees' Dachshunds,Filipe Rodrigues,Keldon Johnson,SF,26,ACTIVE,153,23.43,23.96,1845.0,23.54,29.26,True,4395723
-Thanos,Tico Loyola,Tyrese Maxey,PG,25,ACTIVE,10,52.16,45.13,3204.0,50.75,45.81,True,4431678
-Thanos,Tico Loyola,Joel Embiid,C,32,ACTIVE,63,43.5,45.35,2449.0,43.87,46.03,True,3059318
-Thanos,Tico Loyola,Stephen Curry,PG,38,ACTIVE,15,42.93,43.05,2841.0,42.95,43.7,True,3975
-Thanos,Tico Loyola,LeBron James,SF,41,ACTIVE,34,42.92,42.48,2719.0,42.83,43.12,True,1966
-Thanos,Tico Loyola,Derrick White,SG,31,ACTIVE,39,37.21,37.01,2850.0,37.17,40.27,True,3078576
-Thanos,Tico Loyola,Tyler Herro,SG,26,ACTIVE,58,35.55,38.81,2600.0,36.2,39.39,True,4395725
-Thanos,Tico Loyola,Jarrett Allen,C,28,ACTIVE,82,33.3,36.86,2617.0,34.01,40.1,True,4066328
-Thanos,Tico Loyola,Andrew Wiggins,SF,31,ACTIVE,111,31.97,32.03,2146.0,31.98,34.85,True,3059319
-Thanos,Tico Loyola,Miles Bridges,SF,28,ACTIVE,87,30.92,33.92,2408.0,31.52,36.9,True,4066383
-Thanos,Tico Loyola,Jalen Green,SG,24,ACTIVE,106,26.84,32.43,2270.0,27.96,35.28,True,4437244
-Thanos,Tico Loyola,Draymond Green,PF,36,ACTIVE,130,25.62,28.45,1821.0,26.19,30.95,True,6589
-Thanos,Tico Loyola,Quentin Grimes,SG,26,ACTIVE,135,25.11,28.11,2052.0,25.71,30.58,True,4397014
-Thanos,Tico Loyola,Brook Lopez,C,38,ACTIVE,154,20.33,26.21,1887.0,21.51,32.0,True,3448
-Zuzzo's Gambit,Victor Caruzzo,Luka Doncic,PG,27,ACTIVE,6,59.14,60.63,4123.0,59.44,61.54,True,3945274
-Zuzzo's Gambit,Victor Caruzzo,Josh Giddey,PG,23,ACTIVE,30,41.94,46.16,3139.0,42.78,46.85,True,4871145
-Zuzzo's Gambit,Victor Caruzzo,Deni Avdija,SF,25,ACTIVE,43,41.24,40.38,2907.0,41.07,40.99,True,4683021
-Zuzzo's Gambit,Victor Caruzzo,Walker Kessler,C,24,ACTIVE,67,40.6,38.61,2471.0,40.2,42.01,True,4433136
-Zuzzo's Gambit,Victor Caruzzo,Julius Randle,PF,31,ACTIVE,54,37.23,37.04,2667.0,37.19,40.3,True,3064514
-Zuzzo's Gambit,Victor Caruzzo,Dejounte Murray,SG,29,DAY_TO_DAY,78,36.0,39.04,2655.0,36.61,39.63,True,3907497
-Zuzzo's Gambit,Victor Caruzzo,Nic Claxton,C,27,DAY_TO_DAY,126,30.26,30.29,2090.0,30.27,32.96,True,4278067
-Zuzzo's Gambit,Victor Caruzzo,Ausar Thompson,SF,23,ACTIVE,102,29.97,30.8,2156.0,30.14,33.51,True,4684742
-Zuzzo's Gambit,Victor Caruzzo,Kel'el Ware,C,22,ACTIVE,91,28.71,33.78,2432.0,29.72,36.75,True,5105623
-Zuzzo's Gambit,Victor Caruzzo,Egor Demin,PG,20,ACTIVE,115,21.79,30.04,2133.0,23.44,32.68,True,5175643
-Zuzzo's Gambit,Victor Caruzzo,Rui Hachimura,PF,28,ACTIVE,150,20.37,23.97,1702.0,21.09,29.27,True,4066648
-Zuzzo's Gambit,Victor Caruzzo,Tyrese Haliburton,PG,,ACTIVE,19,0.0,48.62,3112.0,9.72,49.35,True,4396993
-Zuzzo's Gambit,Victor Caruzzo,Ben Simmons,PG,,ACTIVE,139,0.0,21.68,802.0,4.34,26.47,True,3907387
+time,conferencia,dono,jogador,posicao,posicoes_elegiveis,idade,status_lesao,pick_draft,fp_jogo_2025_26,fp_jogo_proj_2026_27,fp_total_proj_2026_27,valor_atual,teto,saudavel,espn_player_id
+Darela's Basket Union,West,Raul Darela,Giannis Antetokounmpo,PF,PF/C/F,31,ACTIVE,7,49.36,57.55,3856.0,51.0,58.41,True,3032977
+Darela's Basket Union,West,Raul Darela,Kevin Porter Jr.,SG,PG/SG/G,26,ACTIVE,127,42.05,33.02,2179.0,40.24,35.93,True,4397140
+Darela's Basket Union,West,Raul Darela,Jalen Duren,C,C,22,ACTIVE,31,38.77,42.21,3039.0,39.46,42.84,True,4433621
+Darela's Basket Union,West,Raul Darela,Trae Young,PG,PG/G,27,ACTIVE,18,34.4,44.35,3149.0,36.39,45.02,True,4277905
+Darela's Basket Union,West,Raul Darela,Desmond Bane,SG,SG/SF/G/F,28,ACTIVE,42,35.62,38.25,2754.0,36.15,41.62,True,4066320
+Darela's Basket Union,West,Raul Darela,Ja Morant,PG,PG/G,26,ACTIVE,90,34.4,37.54,2440.0,35.03,40.84,True,4279888
+Darela's Basket Union,West,Raul Darela,Rudy Gobert,C,C,34,ACTIVE,55,33.01,34.31,2470.0,33.27,37.33,True,3032976
+Darela's Basket Union,West,Raul Darela,OG Anunoby,SF,SF/PF/F,28,ACTIVE,66,33.04,33.09,2250.0,33.05,36.0,True,3934719
+Darela's Basket Union,West,Raul Darela,Josh Hart,SF,SG/SF/G/F,31,DAY_TO_DAY,103,31.8,33.01,2245.0,32.04,35.91,True,3062679
+Darela's Basket Union,West,Raul Darela,Jaden McDaniels,SF,SF/PF/F,25,ACTIVE,79,30.75,29.73,2200.0,30.55,32.35,True,4431671
+Darela's Basket Union,West,Raul Darela,Keegan Murray,PF,SF/PF/F,25,ACTIVE,138,29.87,29.28,2079.0,29.75,31.86,True,4594327
+Darela's Basket Union,West,Raul Darela,Peyton Watson,SF,SF/PF/F,23,ACTIVE,114,28.74,29.25,2077.0,28.84,31.82,True,4576087
+Darela's Basket Union,West,Raul Darela,Devin Vassell,SG,SG/SF/G/F,25,ACTIVE,151,26.72,26.83,1851.0,26.74,29.19,True,4395630
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Victor Wembanyama,C,C,22,ACTIVE,2,55.41,60.51,4054.0,56.43,61.42,True,5104157
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Kawhi Leonard,SF,SF/PF/F,35,ACTIVE,26,48.66,45.75,2882.0,48.08,46.44,True,6450
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Kevin Durant,PF,SF/PF/F,37,ACTIVE,23,43.83,42.9,3089.0,43.64,43.54,True,3202
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,De'Aaron Fox,PG,PG/SG/G,28,ACTIVE,71,36.71,38.15,2709.0,37.0,41.51,True,4066259
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Nikola Vucevic,C,C,35,ACTIVE,98,33.61,30.19,2174.0,32.93,32.85,True,6478
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Andrew Nembhard,PG,PG/SG/G,26,ACTIVE,119,34.05,28.18,2001.0,32.88,30.66,True,4395712
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Cedric Coward,SF,SG/SF/G/F,22,ACTIVE,143,26.39,29.74,2052.0,27.06,32.36,True,4903027
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Naji Marshall,SF,SF/PF/F,28,ACTIVE,146,28.09,22.39,1567.0,26.95,27.34,True,4278594
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Daniel Gafford,C,C,27,ACTIVE,122,25.15,29.32,1994.0,25.98,31.9,True,4278049
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Kyrie Irving,PG,PG/G,,ACTIVE,47,0.0,44.2,2608.0,8.84,44.86,True,6442
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Aday Mara,C,C,,ACTIVE,50,,,,0.0,,True,5174983
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Brandon Ingram,SF,SF/PF/F,28,OUT,74,35.61,38.47,2116.0,0.0,41.86,False,3913176
+Drinho Magic,West,Pedro Vítor Rodrigues da Silva,Donte DiVincenzo,SG,PG/SG/G,29,OUT,95,28.51,23.0,92.0,0.0,28.08,False,3934673
+Farateam,West,Daniel Farati,Donovan Mitchell,SG,PG/SG/G,29,ACTIVE,14,46.9,46.48,3300.0,46.82,47.18,True,3908809
+Farateam,West,Daniel Farati,Evan Mobley,PF,PF/C/F,25,ACTIVE,35,40.89,43.33,2860.0,41.38,43.98,True,4432158
+Farateam,West,Daniel Farati,Cooper Flagg,SF,SF/PF/F,19,ACTIVE,11,39.69,45.36,3266.0,40.82,46.04,True,5041939
+Farateam,West,Daniel Farati,Austin Reaves,SG,PG/SG/G,28,ACTIVE,38,40.06,43.33,2903.0,40.71,43.98,True,4066457
+Farateam,West,Daniel Farati,Nickeil Alexander-Walker,SG,PG/SG/G,27,ACTIVE,62,36.38,34.05,2690.0,35.91,37.05,True,4278039
+Farateam,West,Daniel Farati,Norman Powell,SG,SG/SF/G/F,33,ACTIVE,59,32.53,35.97,2482.0,33.22,39.14,True,2595516
+Farateam,West,Daniel Farati,Ivica Zubac,C,C,29,ACTIVE,86,31.44,35.46,2447.0,32.24,38.58,True,4017837
+Farateam,West,Daniel Farati,Jakob Poeltl,C,C,30,ACTIVE,110,27.41,31.65,2089.0,28.26,34.44,True,3134908
+Farateam,West,Daniel Farati,Christian Braun,SG,SG/SF/G/F,25,ACTIVE,134,24.89,23.14,1504.0,24.54,28.25,True,4431767
+Farateam,West,Daniel Farati,Julian Champagnie,SF,SF/PF/F,25,ACTIVE,107,24.23,23.34,1914.0,24.05,28.5,True,4592479
+Farateam,West,Daniel Farati,Kyle Kuzma,PF,SF/PF/F,30,ACTIVE,155,24.0,23.28,1583.0,23.86,28.42,True,3134907
+Farateam,West,Daniel Farati,Gui Santos,SF,SF/F,24,ACTIVE,131,20.32,19.7,1300.0,20.2,24.05,True,4997536
+Farateam,West,Daniel Farati,Damian Lillard,PG,PG/G,,ACTIVE,83,0.0,38.62,2510.0,7.72,39.2,True,6606
+Ipiranga's Drunkballers,East,Iago Canet,Shai Gilgeous-Alexander,PG,PG/G,27,ACTIVE,3,55.49,56.84,4320.0,55.76,57.69,True,4278073
+Ipiranga's Drunkballers,East,Iago Canet,Alperen Sengun,C,C,23,ACTIVE,27,43.86,43.01,3097.0,43.69,43.66,True,4871144
+Ipiranga's Drunkballers,East,Iago Canet,LaMelo Ball,PG,PG/G,24,ACTIVE,22,39.69,46.43,3157.0,41.04,47.13,True,4432816
+Ipiranga's Drunkballers,East,Iago Canet,Stephon Castle,PG,PG/SG/G,21,ACTIVE,51,35.01,36.86,2654.0,35.38,40.1,True,4845367
+Ipiranga's Drunkballers,East,Iago Canet,Immanuel Quickley,PG,PG/SG/G,27,ACTIVE,94,35.49,34.92,2270.0,35.38,37.99,True,4395724
+Ipiranga's Drunkballers,East,Iago Canet,Mikal Bridges,SF,SG/SF/G/F,29,ACTIVE,46,33.3,32.84,2693.0,33.21,35.73,True,3147657
+Ipiranga's Drunkballers,East,Iago Canet,DeMar DeRozan,SF,SF/PF/F,36,ACTIVE,70,32.21,29.83,2297.0,31.73,32.46,True,3978
+Ipiranga's Drunkballers,East,Iago Canet,Reed Sheppard,SG,PG/SG/G,22,ACTIVE,99,29.73,29.92,2274.0,29.77,32.55,True,4711272
+Ipiranga's Drunkballers,East,Iago Canet,Ayo Dosunmu,SG,PG/SG/G,26,ACTIVE,118,28.97,30.36,2186.0,29.25,33.03,True,4397002
+Ipiranga's Drunkballers,East,Iago Canet,Neemias Queta,C,C,26,ACTIVE,142,29.68,27.19,1958.0,29.18,29.58,True,4397424
+Ipiranga's Drunkballers,East,Iago Canet,Derik Queen,C,PF/C/F,21,ACTIVE,75,28.33,30.49,2317.0,28.76,33.17,True,4869780
+Ipiranga's Drunkballers,East,Iago Canet,Ace Bailey,SF,SF/PF/F,19,ACTIVE,123,24.89,26.75,1926.0,25.26,29.1,True,4873138
+Ipiranga's Drunkballers,East,Iago Canet,Jordan Poole,SG,PG/SG/G,27,ACTIVE,147,20.9,21.98,1451.0,21.12,26.84,True,4277956
+Little River Hustlers,East,Thiago Ajej,Jalen Johnson,PF,PF/F,24,ACTIVE,17,48.56,49.99,3599.0,48.85,50.74,True,4701230
+Little River Hustlers,East,Thiago Ajej,Anthony Edwards,SG,SG/SF/G/F,24,ACTIVE,8,45.57,47.25,3402.0,45.91,47.96,True,4594268
+Little River Hustlers,East,Thiago Ajej,James Harden,PG,PG/SG/G,36,ACTIVE,41,43.5,42.08,3072.0,43.22,42.71,True,3992
+Little River Hustlers,East,Thiago Ajej,Trey Murphy III,SF,SG/SF/G/F,26,ACTIVE,65,40.5,36.75,2499.0,39.75,39.98,True,4397688
+Little River Hustlers,East,Thiago Ajej,Michael Porter Jr.,SF,SF/PF/F,28,ACTIVE,56,39.31,38.93,2686.0,39.23,39.51,True,4278104
+Little River Hustlers,East,Thiago Ajej,Paul George,SF,SF/PF/F,36,ACTIVE,89,35.27,38.47,2116.0,35.91,41.86,True,4251
+Little River Hustlers,East,Thiago Ajej,Darius Garland,PG,PG/G,26,ACTIVE,32,34.42,40.38,2786.0,35.61,40.99,True,4396907
+Little River Hustlers,East,Thiago Ajej,Onyeka Okongwu,C,C,25,ACTIVE,80,35.11,34.81,2506.0,35.05,37.87,True,4431680
+Little River Hustlers,East,Thiago Ajej,Zach Edey,C,C,24,ACTIVE,113,34.18,33.16,2056.0,33.98,36.08,True,4600663
+Little River Hustlers,East,Thiago Ajej,Anthony Black,PG,PG/SG/G,22,DAY_TO_DAY,152,29.84,28.16,1943.0,29.5,30.64,True,4712849
+Little River Hustlers,East,Thiago Ajej,Tobias Harris,PF,SF/PF/F,33,DAY_TO_DAY,128,27.03,30.07,2135.0,27.64,32.72,True,6440
+Little River Hustlers,East,Thiago Ajej,Davion Mitchell,PG,PG/G,27,ACTIVE,137,27.19,25.52,1812.0,26.86,31.16,True,4278053
+Little River Hustlers,East,Thiago Ajej,Fred VanVleet,PG,PG/SG/G,,DAY_TO_DAY,104,0.0,33.43,2273.0,6.69,36.37,True,2991230
+NewJeans,West,Tom Almeida,Jayson Tatum,PF,SF/PF/F,28,ACTIVE,4,42.62,48.1,3367.0,43.72,48.82,True,4065648
+NewJeans,West,Tom Almeida,Karl-Anthony Towns,C,C,30,ACTIVE,21,39.29,44.09,3086.0,40.25,44.75,True,3136195
+NewJeans,West,Tom Almeida,Chet Holmgren,C,PF/C/F,24,DAY_TO_DAY,28,38.04,37.94,2466.0,38.02,41.28,True,4433255
+NewJeans,West,Tom Almeida,Donovan Clingan,C,C,22,ACTIVE,45,35.1,33.86,2472.0,34.85,36.84,True,5105565
+NewJeans,West,Tom Almeida,Payton Pritchard,PG,PG/SG/G,28,ACTIVE,76,33.48,31.56,2272.0,33.1,34.34,True,4066354
+NewJeans,West,Tom Almeida,AJ Dybantsa,SF,SF/F,,DAY_TO_DAY,69,,32.92,2370.0,32.92,38.06,True,5142718
+NewJeans,West,Tom Almeida,Naz Reid,C,PF/C/F,26,ACTIVE,52,29.6,35.51,2699.0,30.78,38.63,True,4396971
+NewJeans,West,Tom Almeida,Saddiq Bey,SF,SF/PF/F,27,ACTIVE,141,30.67,25.87,1837.0,29.71,31.59,True,4397136
+NewJeans,West,Tom Almeida,Darryn Peterson,SG,PG/SG/G,,ACTIVE,93,,29.07,2122.0,29.07,33.6,True,5041955
+NewJeans,West,Tom Almeida,Brandin Podziemski,SG,PG/SG/G,23,ACTIVE,100,28.49,30.84,2436.0,28.96,33.55,True,4709138
+NewJeans,West,Tom Almeida,Collin Sexton,SG,PG/SG/G,27,DAY_TO_DAY,124,25.97,28.76,2013.0,26.53,31.29,True,4277811
+NewJeans,West,Tom Almeida,Jeremiah Fears,SG,PG/SG/G,19,ACTIVE,117,25.56,27.3,2102.0,25.91,29.7,True,5144091
+NewJeans,West,Tom Almeida,Cameron Johnson,SF,SF/PF/F,30,ACTIVE,148,25.06,26.09,1774.0,25.27,31.86,True,3138196
+Os Coringas do Vitinho,East,Victor Martinoja,Cade Cunningham,PG,PG/G,24,ACTIVE,5,50.41,50.45,3481.0,50.42,51.21,True,4432166
+Os Coringas do Vitinho,East,Victor Martinoja,Anthony Davis,C,PF/C/F,33,ACTIVE,29,43.5,49.56,3023.0,44.71,50.3,True,6583
+Os Coringas do Vitinho,East,Victor Martinoja,Amen Thompson,SF,SG/SF/G/F,23,ACTIVE,20,40.43,39.96,3117.0,40.34,40.56,True,4684740
+Os Coringas do Vitinho,East,Victor Martinoja,Paolo Banchero,PF,SF/PF/F,23,ACTIVE,44,37.86,39.0,2691.0,38.09,39.58,True,4432573
+Os Coringas do Vitinho,East,Victor Martinoja,Ty Jerome,SG,PG/SG/G,28,ACTIVE,101,37.13,39.8,2547.0,37.66,40.4,True,4065733
+Os Coringas do Vitinho,East,Victor Martinoja,Alex Sarr,C,PF/C/F,21,ACTIVE,92,36.48,36.61,2416.0,36.51,39.83,True,5160992
+Os Coringas do Vitinho,East,Victor Martinoja,Dyson Daniels,SG,PG/SG/G,23,ACTIVE,53,36.46,35.65,2674.0,36.3,38.79,True,4869342
+Os Coringas do Vitinho,East,Victor Martinoja,VJ Edgecombe,SG,SG/G,20,ACTIVE,68,34.0,33.69,2426.0,33.94,36.65,True,5124612
+Os Coringas do Vitinho,East,Victor Martinoja,Matas Buzelis,SF,SF/PF/F,21,ACTIVE,77,31.55,32.54,2408.0,31.75,35.4,True,4711294
+Os Coringas do Vitinho,East,Victor Martinoja,Aaron Gordon,PF,PF/F,30,ACTIVE,125,29.22,28.91,1908.0,29.16,31.45,True,3064290
+Os Coringas do Vitinho,East,Victor Martinoja,Jonathan Kuminga,PF,SF/PF/F,23,ACTIVE,140,21.67,26.25,1759.0,22.59,28.56,True,4433247
+Os Coringas do Vitinho,East,Victor Martinoja,Alex Caruso,SG,PG/SG/G,32,ACTIVE,116,17.5,24.04,1659.0,18.81,29.35,True,2991350
+Os Coringas do Vitinho,East,Victor Martinoja,Jared McCain,SG,PG/SG/G,22,ACTIVE,149,14.06,20.19,1393.0,15.29,24.65,True,4683778
+PC Comrades,East,Paulo Cardoso,Jaylen Brown,SF,SG/SF/G/F,29,ACTIVE,12,43.59,38.61,2741.0,42.59,42.01,True,3917376
+PC Comrades,East,Paulo Cardoso,Lauri Markkanen,PF,SF/PF/F,29,ACTIVE,37,42.05,38.65,2667.0,41.37,39.23,True,4066336
+PC Comrades,East,Paulo Cardoso,Domantas Sabonis,C,PF/C/F,30,ACTIVE,13,34.84,46.7,3222.0,37.21,47.4,True,3155942
+PC Comrades,East,Paulo Cardoso,Ryan Rollins,SG,PG/SG/G,23,ACTIVE,108,36.53,31.86,2198.0,35.6,34.66,True,4591725
+PC Comrades,East,Paulo Cardoso,Jaren Jackson Jr.,C,PF/C/F,26,ACTIVE,60,34.88,38.11,2363.0,35.53,41.46,True,4277961
+PC Comrades,East,Paulo Cardoso,Kon Knueppel,SF,SG/SF/G/F,20,DAY_TO_DAY,36,32.69,35.17,2743.0,33.19,38.26,True,5061575
+PC Comrades,East,Paulo Cardoso,RJ Barrett,SF,SG/SF/G/F,26,ACTIVE,84,32.02,32.56,2149.0,32.13,35.43,True,4395625
+PC Comrades,East,Paulo Cardoso,Collin Gillespie,PG,PG/G,27,ACTIVE,156,29.7,28.48,2079.0,29.46,30.99,True,4278585
+PC Comrades,East,Paulo Cardoso,Zach LaVine,SG,SG/SF/G/F,31,ACTIVE,85,28.13,32.02,1953.0,28.91,34.84,True,3064440
+PC Comrades,East,Paulo Cardoso,Jerami Grant,PF,PF/F,32,DAY_TO_DAY,109,27.81,26.99,1835.0,27.65,29.37,True,2991070
+PC Comrades,East,Paulo Cardoso,Dylan Harper,PG,PG/SG/G,20,ACTIVE,61,25.09,32.26,2323.0,26.52,35.1,True,5037871
+PC Comrades,East,Paulo Cardoso,Kevin Huerter,SG,SG/SF/G/F,27,ACTIVE,133,22.54,22.86,1577.0,22.6,27.91,True,4066372
+PC Comrades,East,Paulo Cardoso,Jimmy Butler III,SF,SG/SF/G/F,36,OUT,132,39.05,38.77,1512.0,0.0,39.35,False,6430
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Nikola Jokic,C,C,31,ACTIVE,1,66.31,67.19,4838.0,66.49,68.2,True,3112335
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Jamal Murray,PG,PG/G,29,ACTIVE,48,46.64,43.93,3031.0,46.1,44.59,True,3936299
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Devin Booker,PG,PG/SG/G,29,ACTIVE,24,39.22,43.24,3113.0,40.02,43.89,True,3136193
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Pascal Siakam,PF,PF/F,32,ACTIVE,25,39.03,41.11,3042.0,39.45,41.73,True,3149673
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Keyonte George,PG,PG/SG/G,22,ACTIVE,73,39.07,36.76,2500.0,38.61,39.99,True,4433627
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Zion Williamson,PF,PF/C/F,25,ACTIVE,49,35.6,39.97,2558.0,36.47,40.57,True,4395628
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Caleb Wilson,SF,SF/F,,ACTIVE,72,,34.9,2478.0,34.9,39.75,True,5095151
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Jrue Holiday,PG,PG/SG/G,36,DAY_TO_DAY,144,33.08,28.07,1909.0,32.08,30.54,True,3995
+Pedrosa's Air Ballers,East,Pedro Pedrosa,CJ McCollum,SG,PG/SG/G,34,ACTIVE,97,31.86,32.44,2368.0,31.98,35.29,True,2490149
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Darius Acuff Jr.,PG,PG/G,,ACTIVE,121,,30.4,2219.0,30.4,34.63,True,5142620
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Isaiah Hartenstein,C,C,28,ACTIVE,120,30.0,30.52,1953.0,30.1,33.21,True,4222252
+Pedrosa's Air Ballers,East,Pedro Pedrosa,John Collins,PF,PF/C/F,28,ACTIVE,96,26.35,31.78,2161.0,27.44,34.58,True,3908845
+Pedrosa's Air Ballers,East,Pedro Pedrosa,Dennis Schroder,PG,PG/G,32,ACTIVE,145,22.36,23.0,1656.0,22.49,28.08,True,3032979
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Scottie Barnes,SF,SG/SF/G/F,24,ACTIVE,16,44.05,43.68,3145.0,43.98,44.34,True,4433134
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Jalen Brunson,PG,PG/G,29,ACTIVE,9,42.18,43.83,3156.0,42.51,44.49,True,3934672
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Bam Adebayo,C,PF/C/F,28,DAY_TO_DAY,40,39.23,39.63,2893.0,39.31,40.22,True,4066261
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Jalen Williams,PF,SF/PF/F,25,ACTIVE,33,34.3,40.96,2867.0,35.63,41.57,True,4593803
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Franz Wagner,SF,SF/PF/F,24,DAY_TO_DAY,57,33.88,38.64,2550.0,34.83,39.22,True,4566434
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Brandon Miller,SF,SG/SF/G/F,23,ACTIVE,64,34.18,37.41,2544.0,34.83,40.7,True,4433287
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Cameron Boozer,PF,PF/F,,ACTIVE,81,,34.33,2472.0,34.33,39.1,True,5041935
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Kyshawn George,SG,SG/SF/G/F,22,ACTIVE,129,31.23,30.15,1990.0,31.01,32.8,True,5174563
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Jabari Smith Jr.,PF,PF/C/F,23,ACTIVE,112,30.64,27.64,2018.0,30.04,30.07,True,4432639
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Jaime Jaquez Jr.,SF,SG/SF/G/F,25,ACTIVE,105,29.81,28.22,2088.0,29.49,30.7,True,4432848
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Myles Turner,C,C,30,ACTIVE,136,27.42,28.41,2017.0,27.62,30.91,True,3133628
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Coby White,PG,PG/SG/G,26,DAY_TO_DAY,88,26.12,32.86,2366.0,27.47,35.75,True,4395651
+Pinetrees' Dachshunds,West,Filipe Rodrigues,Keldon Johnson,SF,SF/PF/F,26,ACTIVE,153,23.43,23.96,1845.0,23.54,29.26,True,4395723
+Thanos,East,Tico Loyola,Tyrese Maxey,PG,PG/SG/G,25,ACTIVE,10,52.16,45.13,3204.0,50.75,45.81,True,4431678
+Thanos,East,Tico Loyola,Joel Embiid,C,C,32,ACTIVE,63,43.5,45.35,2449.0,43.87,46.03,True,3059318
+Thanos,East,Tico Loyola,Stephen Curry,PG,PG/G,38,ACTIVE,15,42.93,43.05,2841.0,42.95,43.7,True,3975
+Thanos,East,Tico Loyola,LeBron James,SF,SF/PF/F,41,ACTIVE,34,42.92,42.48,2719.0,42.83,43.12,True,1966
+Thanos,East,Tico Loyola,Derrick White,SG,PG/SG/G,31,ACTIVE,39,37.21,37.01,2850.0,37.17,40.27,True,3078576
+Thanos,East,Tico Loyola,Tyler Herro,SG,PG/SG/G,26,ACTIVE,58,35.55,38.81,2600.0,36.2,39.39,True,4395725
+Thanos,East,Tico Loyola,Jarrett Allen,C,C,28,ACTIVE,82,33.3,36.86,2617.0,34.01,40.1,True,4066328
+Thanos,East,Tico Loyola,Andrew Wiggins,SF,SF/PF/F,31,ACTIVE,111,31.97,32.03,2146.0,31.98,34.85,True,3059319
+Thanos,East,Tico Loyola,Miles Bridges,SF,SF/PF/F,28,ACTIVE,87,30.92,33.92,2408.0,31.52,36.9,True,4066383
+Thanos,East,Tico Loyola,Jalen Green,SG,SG/SF/G/F,24,ACTIVE,106,26.84,32.43,2270.0,27.96,35.28,True,4437244
+Thanos,East,Tico Loyola,Draymond Green,PF,PF/C/F,36,ACTIVE,130,25.62,28.45,1821.0,26.19,30.95,True,6589
+Thanos,East,Tico Loyola,Quentin Grimes,SG,SG/SF/G/F,26,ACTIVE,135,25.11,28.11,2052.0,25.71,30.58,True,4397014
+Thanos,East,Tico Loyola,Brook Lopez,C,C,38,ACTIVE,154,20.33,26.21,1887.0,21.51,32.0,True,3448
+Zuzzo's Gambit,West,Victor Caruzzo,Luka Doncic,PG,PG/G,27,ACTIVE,6,59.14,60.63,4123.0,59.44,61.54,True,3945274
+Zuzzo's Gambit,West,Victor Caruzzo,Josh Giddey,PG,PG/SG/G,23,ACTIVE,30,41.94,46.16,3139.0,42.78,46.85,True,4871145
+Zuzzo's Gambit,West,Victor Caruzzo,Deni Avdija,SF,SF/PF/F,25,ACTIVE,43,41.24,40.38,2907.0,41.07,40.99,True,4683021
+Zuzzo's Gambit,West,Victor Caruzzo,Walker Kessler,C,C,24,ACTIVE,67,40.6,38.61,2471.0,40.2,42.01,True,4433136
+Zuzzo's Gambit,West,Victor Caruzzo,Julius Randle,PF,PF/F,31,ACTIVE,54,37.23,37.04,2667.0,37.19,40.3,True,3064514
+Zuzzo's Gambit,West,Victor Caruzzo,Dejounte Murray,SG,PG/SG/G,29,DAY_TO_DAY,78,36.0,39.04,2655.0,36.61,39.63,True,3907497
+Zuzzo's Gambit,West,Victor Caruzzo,Nic Claxton,C,C,27,DAY_TO_DAY,126,30.26,30.29,2090.0,30.27,32.96,True,4278067
+Zuzzo's Gambit,West,Victor Caruzzo,Ausar Thompson,SF,SF/PF/F,23,ACTIVE,102,29.97,30.8,2156.0,30.14,33.51,True,4684742
+Zuzzo's Gambit,West,Victor Caruzzo,Kel'el Ware,C,C,22,ACTIVE,91,28.71,33.78,2432.0,29.72,36.75,True,5105623
+Zuzzo's Gambit,West,Victor Caruzzo,Egor Demin,PG,PG/SG/G,20,ACTIVE,115,21.79,30.04,2133.0,23.44,32.68,True,5175643
+Zuzzo's Gambit,West,Victor Caruzzo,Rui Hachimura,PF,SF/PF/F,28,ACTIVE,150,20.37,23.97,1702.0,21.09,29.27,True,4066648
+Zuzzo's Gambit,West,Victor Caruzzo,Tyrese Haliburton,PG,PG/SG/G,,ACTIVE,19,0.0,48.62,3112.0,9.72,49.35,True,4396993
+Zuzzo's Gambit,West,Victor Caruzzo,Ben Simmons,PG,PG/G,,ACTIVE,139,0.0,21.68,802.0,4.34,26.47,True,3907387

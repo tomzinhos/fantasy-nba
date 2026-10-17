@@ -1,3 +1,4 @@
+import csv
 #!/usr/bin/env python3
 """Relatório em PDF da liga: rankings + uma página por time (estilo research de banco de investimento).
 
@@ -180,12 +181,15 @@ def build():
     for i, p in enumerate(ranked_players, 1):
         p["lrank"] = i
 
+    conf_map = {}
+    with open(DATA_DIR / "teams.csv", encoding="utf-8") as fh:
+        conf_map = {r["team_name"]: r["conferencia"] for r in csv.DictReader(fh)}
     teams = {}
     for r in rows:
         ps = sorted(by_team[r["time"]], key=val, reverse=True)
         lineup, depth = rk.best_five(ps)
         teams[r["time"]] = {"name": r["time"], "owner": r["dono"], "m": {k: r[k] for k, _, _ in METRICS},
-                            "players": ps, "lineup": lineup, "depth": depth, "rank": {}}
+                            "players": ps, "lineup": lineup, "depth": depth, "rank": {}, "conf": conf_map.get(r["time"], "")}
     for key, _, _ in METRICS:
         order = sorted(teams.values(), key=lambda t: t["m"][key], reverse=True)
         for i, t in enumerate(order, 1):
@@ -746,7 +750,7 @@ def build_story(ctx):
         ("Valor atual", "Média de FP por jogo: 80% da média real de 2025-26 e 20% da projeção ESPN 2026-27. Rookies usam a projeção. "
                         "Jogadores OUT valem 0; day-to-day contam como disponíveis."),
         ("Power rank", "Soma dos 10 melhores valores atuais do elenco."),
-        ("Starting five", "Uma vaga por posição (PG, SG, SF, PF, C) com o melhor saudável da posição; se faltar, entra o melhor disponível."),
+        ("Starting five", "Uma vaga por posição (PG, SG, SF, PF, C). Cada jogador pode ocupar qualquer vaga para a qual é elegível no ESPN (um PF que também é C pode ser o C). A escolha é a combinação de maior soma; se faltar elegível saudável, entra o melhor disponível."),
         ("Depth", "Soma dos 8 melhores jogadores saudáveis fora do starting five."),
         ("Projeção de temporada", "Soma das projeções totais do ESPN para 2026-27, que embutem os jogos esperados de cada jogador (por isso lesionados ainda contam)."),
         ("Teto", "Projeção ESPN multiplicada pelo percentil 80 de real ÷ projeção do nível do jogador em 2025-26. O teto do time soma os 10 maiores."),
@@ -774,7 +778,7 @@ def build_story(ctx):
                                       pt(min(rr), 2) if rr else "-", pt(max(rr), 2) if rr else "-"), "body")]
     story += [Spacer(1, 8), P("LIMITAÇÕES", "kicker"), Spacer(1, 3)] + bullets([
         "A projeção do ESPN foi otimista em 2025-26: a mediana de real ÷ projeção ficou abaixo de 1,0 nos três níveis. Os valores usam a projeção como ela vem.",
-        "A posição vem da posição padrão do ESPN; a elegibilidade múltipla (por exemplo PG/SG) não é usada no starting five.",
+        "A elegibilidade vem do eligibleSlots do ESPN. G e F aparecem sempre junto de PG/SG ou SF/PF, então não criam vagas extras no starting five.",
         "A amostra de rookies para o teto é pequena e muito dispersa; o teto de estreantes é a estimativa menos firme do relatório.",
         "Lesões são um retrato de hoje (%s): os rankings de valor atual mudam com o boletim médico." % data_extenso(ctx["today"]),
     ]) + [PageBreak()]
@@ -834,11 +838,11 @@ def build_story(ctx):
         rows.append(line)
     pc = ctx["pos_count"]
     pos_txt = ", ".join("%s %d" % (k, pc[k]) for k in rk.SLOTS)
-    intro = ["Oferta de jogadores por posição na liga: %s. Times sem titular natural em uma posição usam o melhor disponível de outra posição (marcado com asterisco)." % pos_txt]
+    intro = ["Oferta de jogadores por posição na liga: %s. Cada time escolhe a melhor combinação de elegíveis; vaga sem elegível saudável recebe o melhor disponível (marcado com asterisco)." % pos_txt]
     extra = [Spacer(1, 8), P("STARTING FIVE POR TIME", "box_h"), Spacer(1, 3),
              make_table(["Time"] + rk.SLOTS, rows, [108, 77, 77, 77, 77, 77],
                         extra=[("TOPPADDING", (0, 0), (-1, -1), 2.6), ("BOTTOMPADDING", (0, 0), (-1, -1), 2.6)]),
-             Spacer(1, 3), P("* posição preenchida com o melhor disponível de outra posição.", "small")]
+             Spacer(1, 3), P("* vaga sem elegível saudável; preenchida com o melhor disponível.", "small")]
     story += ranking_page("starting_five", "RANKING 3 DE 5", "Starting five: um titular por posição", intro, extra)
 
     # depth
@@ -901,7 +905,7 @@ def build_story(ctx):
     for t in order:
         s, w = strengths_weaknesses(t, ctx)
         pill = Pill(t["rating"], RATING_COLOR[t["rating"]])
-        head = Table([[[P("TIME %d DE %d  |  %s" % (t["overall"], n_teams, esc(t["owner"]).upper()), "kicker"), Spacer(1, 2), P(esc(t["name"]), "team")], pill]],
+        head = Table([[[P("TIME %d DE %d  |  %s  |  %s" % (t["overall"], n_teams, esc(t.get("conf", "")).upper(), esc(t["owner"]).upper()), "kicker"), Spacer(1, 2), P(esc(t["name"]), "team")], pill]],
                      colWidths=[CONTENT_W - 100, 100])
         head.setStyle(TableStyle([("VALIGN", (0, 0), (0, 0), "TOP"), ("VALIGN", (1, 0), (1, 0), "MIDDLE"), ("ALIGN", (1, 0), (1, 0), "RIGHT"),
                                   ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0)]))
@@ -939,7 +943,7 @@ def build_story(ctx):
         lu_fl = [P("STARTING FIVE E BANCO", "box_h"), Spacer(1, 3), lu, Spacer(1, 3),
                  P("<b>Banco (%d):</b> %s." % (len(t["depth"]), bench), "cell")]
         if t["fallback"]:
-            lu_fl.append(P("* melhor disponível de outra posição.", "small"))
+            lu_fl.append(P("* vaga sem elegível saudável; preenchida com o melhor disponível.", "small"))
         lu_fl.append(Spacer(1, 9))
         maxv = max([val(p) for p in t["players"]] + [float(p["teto"]) for p in t["players"] if p["teto"] != ""]) * 1.02
         rows = []

@@ -9,3 +9,6 @@ DATA_DIR = Path(__file__).parent / "data"
 
 # defaultPositionId do ESPN -> posição. Confirmado com jogadores conhecidos (ids 0, 6 e 7 não apareceram).
 POSITION = {1: "PG", 2: "SG", 3: "SF", 4: "PF", 5: "C"}
+
+# eligibleSlots do ESPN -> posição que o slot representa (ids 7 a 10 não foram decodificados e são ignorados).
+ELIGIBLE_SLOT = {0: "PG", 1: "SG", 2: "SF", 3: "PF", 4: "C", 5: "G", 6: "F"}

@@ -38,35 +38,35 @@
 
 | # | Time | Dono | Starting five |
 |---|---|---|---|
-| 1 | Pedrosa's Air Ballers | Pedro Pedrosa | 218.9 |
-| 2 | Drinho Magic | Pedro Vítor Rodrigues da Silva | 218.1 |
-| 3 | Zuzzo's Gambit | Victor Caruzzo | 214.5 |
+| 1 | Pedrosa's Air Ballers | Pedro Pedrosa | 227.0 |
+| 2 | Zuzzo's Gambit | Victor Caruzzo | 220.7 |
+| 3 | Drinho Magic | Pedro Vítor Rodrigues da Silva | 218.0 |
 | 4 | Little River Hustlers | Thiago Ajej | 212.8 |
-| 5 | Os Coringas do Vitinho | Victor Martinoja | 211.2 |
-| 6 | Ipiranga's Drunkballers | Iago Canet | 203.5 |
-| 7 | Thanos | Tico Loyola | 200.8 |
-| 8 | Darela's Basket Union | Raul Darela | 200.1 |
-| 9 | Pinetrees' Dachshunds | Filipe Rodrigues | 192.4 |
-| 10 | PC Comrades | Paulo Cardoso | 186.2 |
-| 11 | NewJeans | Tom Almeida | 179.1 |
-| 12 | Farateam | Daniel Farati | 169.0 |
+| 5 | Thanos | Tico Loyola | 212.4 |
+| 6 | Os Coringas do Vitinho | Victor Martinoja | 211.2 |
+| 7 | Darela's Basket Union | Raul Darela | 203.2 |
+| 8 | Farateam | Daniel Farati | 202.9 |
+| 9 | Ipiranga's Drunkballers | Iago Canet | 199.8 |
+| 10 | Pinetrees' Dachshunds | Filipe Rodrigues | 196.3 |
+| 11 | PC Comrades | Paulo Cardoso | 192.3 |
+| 12 | NewJeans | Tom Almeida | 184.2 |
 
 ## Melhor depth (8 seguintes saudáveis)
 
 | # | Time | Dono | Depth |
 |---|---|---|---|
-| 1 | Pedrosa's Air Ballers | Pedro Pedrosa | 257.6 |
-| 2 | Darela's Basket Union | Raul Darela | 252.4 |
-| 3 | Thanos | Tico Loyola | 251.8 |
-| 4 | Pinetrees' Dachshunds | Filipe Rodrigues | 242.2 |
-| 5 | NewJeans | Tom Almeida | 240.0 |
-| 6 | Ipiranga's Drunkballers | Iago Canet | 236.1 |
-| 7 | Little River Hustlers | Thiago Ajej | 235.4 |
-| 8 | Farateam | Daniel Farati | 230.8 |
-| 9 | Os Coringas do Vitinho | Victor Martinoja | 224.3 |
-| 10 | PC Comrades | Paulo Cardoso | 206.5 |
-| 11 | Zuzzo's Gambit | Victor Caruzzo | 191.5 |
-| 12 | Drinho Magic | Pedro Vítor Rodrigues da Silva | 121.7 |
+| 1 | Pedrosa's Air Ballers | Pedro Pedrosa | 249.6 |
+| 2 | Darela's Basket Union | Raul Darela | 249.3 |
+| 3 | Thanos | Tico Loyola | 240.3 |
+| 4 | Ipiranga's Drunkballers | Iago Canet | 239.8 |
+| 5 | Pinetrees' Dachshunds | Filipe Rodrigues | 238.3 |
+| 6 | Little River Hustlers | Thiago Ajej | 235.4 |
+| 7 | NewJeans | Tom Almeida | 234.9 |
+| 8 | Os Coringas do Vitinho | Victor Martinoja | 224.3 |
+| 9 | PC Comrades | Paulo Cardoso | 200.5 |
+| 10 | Farateam | Daniel Farati | 196.8 |
+| 11 | Zuzzo's Gambit | Victor Caruzzo | 185.3 |
+| 12 | Drinho Magic | Pedro Vítor Rodrigues da Silva | 121.8 |
 
 ## Maior teto (melhor cenário, 10 maiores)
 
@@ -87,18 +87,18 @@
 
 ## Starting five por time (* = posição preenchida com fallback)
 
-- **Pedrosa's Air Ballers** (218.9): PG: Jamal Murray / SG: CJ McCollum / SF: Caleb Wilson / PF: Pascal Siakam / C: Nikola Jokic
-- **Drinho Magic** (218.1): PG: De'Aaron Fox / SF: Kawhi Leonard / PF: Kevin Durant / C: Victor Wembanyama / SG: Nikola Vucevic*
-- **Zuzzo's Gambit** (214.5): PG: Luka Doncic / SG: Dejounte Murray / SF: Deni Avdija / PF: Julius Randle / C: Walker Kessler
+- **Pedrosa's Air Ballers** (227.0): PG: Jamal Murray / SG: Devin Booker / SF: Caleb Wilson / PF: Pascal Siakam / C: Nikola Jokic
+- **Zuzzo's Gambit** (220.7): PG: Luka Doncic / SG: Josh Giddey / SF: Deni Avdija / PF: Julius Randle / C: Walker Kessler
+- **Drinho Magic** (218.0): PG: De'Aaron Fox / SG: Andrew Nembhard / SF: Kawhi Leonard / PF: Kevin Durant / C: Victor Wembanyama
 - **Little River Hustlers** (212.8): PG: James Harden / SG: Anthony Edwards / SF: Trey Murphy III / PF: Jalen Johnson / C: Onyeka Okongwu
+- **Thanos** (212.4): PG: Stephen Curry / SG: Tyrese Maxey / SF: LeBron James / PF: Andrew Wiggins / C: Joel Embiid
 - **Os Coringas do Vitinho** (211.2): PG: Cade Cunningham / SG: Ty Jerome / SF: Amen Thompson / PF: Paolo Banchero / C: Anthony Davis
-- **Ipiranga's Drunkballers** (203.5): PG: Shai Gilgeous-Alexander / SG: Reed Sheppard / SF: Mikal Bridges / C: Alperen Sengun / PF: LaMelo Ball*
-- **Thanos** (200.8): PG: Tyrese Maxey / SG: Derrick White / SF: LeBron James / PF: Draymond Green / C: Joel Embiid
-- **Darela's Basket Union** (200.1): PG: Trae Young / SG: Kevin Porter Jr. / SF: OG Anunoby / PF: Giannis Antetokounmpo / C: Jalen Duren
-- **Pinetrees' Dachshunds** (192.4): PG: Jalen Brunson / SG: Kyshawn George / SF: Scottie Barnes / PF: Jalen Williams / C: Bam Adebayo
-- **PC Comrades** (186.2): PG: Collin Gillespie / SG: Ryan Rollins / SF: Jaylen Brown / PF: Lauri Markkanen / C: Domantas Sabonis
-- **NewJeans** (179.1): PG: Payton Pritchard / SG: Darryn Peterson / SF: AJ Dybantsa / PF: Jayson Tatum / C: Karl-Anthony Towns
-- **Farateam** (169.0): PG: Damian Lillard / SG: Donovan Mitchell / SF: Cooper Flagg / PF: Evan Mobley / C: Ivica Zubac
+- **Darela's Basket Union** (203.2): PG: Trae Young / SG: Kevin Porter Jr. / SF: Desmond Bane / PF: Giannis Antetokounmpo / C: Jalen Duren
+- **Farateam** (202.9): PG: Donovan Mitchell / SG: Austin Reaves / SF: Norman Powell / PF: Cooper Flagg / C: Evan Mobley
+- **Ipiranga's Drunkballers** (199.8): PG: Shai Gilgeous-Alexander / SG: Stephon Castle / SF: Mikal Bridges / PF: DeMar DeRozan / C: Alperen Sengun
+- **Pinetrees' Dachshunds** (196.3): PG: Jalen Brunson / SG: Scottie Barnes / SF: Jalen Williams / PF: Franz Wagner / C: Bam Adebayo
+- **PC Comrades** (192.3): PG: Ryan Rollins / SG: Jaylen Brown / SF: Lauri Markkanen / PF: Domantas Sabonis / C: Jaren Jackson Jr.
+- **NewJeans** (184.2): PG: Payton Pritchard / SG: Darryn Peterson / SF: Jayson Tatum / PF: Chet Holmgren / C: Karl-Anthony Towns
 
 ## Top 15 jogadores por teto
 

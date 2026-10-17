@@ -1,7 +1,9 @@
 """Rankings da liga: power rank, starting five por posição, depth, teto e projeção de temporada.
 
 Valor atual do jogador (fantasy points por jogo, scoring da liga):
-  - com média anterior e projeção: 80% média anterior + 20% projeção
+  - com média anterior e projeção: 80% média anterior + 20% projeção, se o jogador fez 41+ jogos
+    (meia temporada). Com menos jogos, o peso da média cai proporcionalmente (ex.: 16 jogos -> 31%);
+    sem jogos na temporada passada, vale só a projeção.
   - só projeção (rookies): projeção
   - só média anterior: média anterior
   - sem nenhum dado: fica de fora (sinalizado)
@@ -31,6 +33,7 @@ from collections import defaultdict
 from config import DATA_DIR, POSITION, ELIGIBLE_SLOT
 
 W_PREV, W_PROJ = 0.8, 0.2
+FULL_CREDIT_GAMES = 41  # jogos na temporada passada para a média ter peso cheio
 OUT_STATUSES = {"OUT", "INJURY_RESERVE", "SUSPENSION"}
 SLOTS = ["PG", "SG", "SF", "PF", "C"]
 
@@ -79,6 +82,10 @@ def load():
     for r in csv.DictReader(open(DATA_DIR / "rosters.csv", encoding="utf-8")):
         p = proj.get(r["espn_player_id"], {})
         prev, pj = f(p.get("actual_avg_fp_prev")), f(p.get("proj_avg_fp"))
+        tot_prev = f(p.get("actual_total_prev"))
+        g_prev = round(tot_prev / prev) if (prev and tot_prev) else 0
+        if prev is not None and g_prev == 0:
+            prev = None  # registro sem jogos (média 0) não é dado
         proj_total = f(p.get("proj_total"))
         age = f(base.get(r["player_name"], {}).get("2526_AGE"))
         name = r["player_name"]
@@ -88,7 +95,9 @@ def load():
         out = status in OUT_STATUSES
 
         if prev is not None and pj is not None:
-            value, src = W_PREV * prev + W_PROJ * pj, "80/20"
+            w = W_PREV * min(1.0, g_prev / FULL_CREDIT_GAMES)
+            value = w * prev + (1 - w) * pj
+            src = "80/20" if w == W_PREV else "%d/%d (%d jogos)" % (round(w * 100), round((1 - w) * 100), g_prev)
         elif pj is not None:
             value, src = pj, "só projeção"
         elif prev is not None:
@@ -102,7 +111,7 @@ def load():
             "owner": r["owner"], "team_name": r["team_name"], "player_name": name,
             "position": POSITION.get(int(r["position_id"]), r["position"]) if r.get("position_id") else r["position"], "injury_status": status, "age": age or "",
             "posicoes_elegiveis": "/".join(elegiveis), "_elegiveis": set(elegiveis),
-            "prev_fp": prev if prev is not None else "", "proj_fp": pj if pj is not None else "",
+            "prev_fp": prev if prev is not None else "", "jogos_prev": g_prev, "proj_fp": pj if pj is not None else "",
             "proj_total_season": proj_total if proj_total is not None else "",
             "value": round(value, 2) if value is not None else "",
             "fonte_valor": src,

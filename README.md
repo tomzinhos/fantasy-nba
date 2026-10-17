@@ -29,7 +29,7 @@ Abre direto no Excel, Google Sheets ou Python (`pandas.read_csv`).
 | `fp_jogo_2025_26` | Média real de fantasy points por jogo na temporada passada |
 | `fp_jogo_proj_2026_27` | Projeção do ESPN, em FP por jogo |
 | `fp_total_proj_2026_27` | Projeção do ESPN para a temporada inteira |
-| `valor_atual` | 80% média real + 20% projeção (rookies: só projeção). `OUT` vale 0 |
+| `valor_atual` | 80% média real + 20% projeção, com peso menor para quem jogou menos de 41 jogos (rookies e quem não jogou: só projeção). `OUT` vale 0 |
 | `teto` | Melhor cenário realista, em FP por jogo (veja Metodologia) |
 | `saudavel` | `False` para quem está `OUT`, em IR ou suspenso |
 | `espn_player_id` | ID do jogador no ESPN |
@@ -103,7 +103,7 @@ Quem quiser propor melhorias: fork, branch, pull request.
 
 ## Metodologia (resumo)
 
-- **Valor atual** (FP por jogo, scoring da liga): 80% média real 2025-26 + 20% projeção ESPN 2026-27. Rookies usam a projeção. `OUT`, `INJURY_RESERVE` e `SUSPENSION` valem 0; `DAY_TO_DAY` conta como saudável.
+- **Valor atual** (FP por jogo, scoring da liga): 80% média real 2025-26 + 20% projeção ESPN 2026-27, se o jogador fez 41+ jogos. Com menos jogos, o peso da média cai proporcionalmente (16 jogos: 31%); sem jogos na temporada passada, vale só a projeção. Rookies usam a projeção. `OUT`, `INJURY_RESERVE` e `SUSPENSION` valem 0; `DAY_TO_DAY` conta como saudável.
 - **Power rank:** soma dos 10 melhores valores do elenco.
 - **Starting five:** uma vaga por posição (PG, SG, SF, PF, C). Cada jogador pode ocupar qualquer vaga para a qual é elegível no ESPN (um PF que também é C pode ser o C). A escolha é a combinação saudável de maior soma. Se uma vaga não tiver elegível saudável, entra o melhor disponível (marcado com `*`).
 - **Depth:** os 8 melhores saudáveis fora do starting five.

@@ -1,0 +1,17 @@
+{
+  "quantile": 0.8,
+  "edges": [
+    38.62,
+    26.25
+  ],
+  "mults": [
+    1.015,
+    1.088,
+    1.221
+  ],
+  "rookie_default": 1.139,
+  "rookie_top": 1.156,
+  "n_vets": 297,
+  "n_rookies": 21,
+  "calibrado_com_temporada": 2026
+}

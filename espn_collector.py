@@ -10,7 +10,7 @@ import csv
 import requests
 from dotenv import load_dotenv
 
-from config import LEAGUE_ID, SEASON, DATA_DIR
+from config import LEAGUE_ID, SEASON, DATA_DIR, POSITION
 
 load_dotenv()
 
@@ -18,8 +18,6 @@ BASE = (
     f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/{SEASON}"
     f"/segments/0/leagues/{LEAGUE_ID}"
 )
-# Mapeamento de posição do ESPN. Confirmar na primeira execução (ver README).
-POSITION = {1: "SG", 2: "PG", 3: "SF", 4: "PF", 5: "C"}  # 0, 6 e 7 ainda não confirmados
 
 
 def get_session() -> requests.Session:

@@ -26,7 +26,7 @@ import csv
 import json
 from collections import defaultdict
 
-from config import DATA_DIR
+from config import DATA_DIR, POSITION
 
 W_PREV, W_PROJ = 0.8, 0.2
 OUT_STATUSES = {"OUT", "INJURY_RESERVE", "SUSPENSION"}
@@ -103,7 +103,7 @@ def load():
 
         players.append({
             "owner": r["owner"], "team_name": r["team_name"], "player_name": name,
-            "position": r["position"], "injury_status": status, "age": age or "",
+            "position": POSITION.get(int(r["position_id"]), r["position"]) if r.get("position_id") else r["position"], "injury_status": status, "age": age or "",
             "prev_fp": prev if prev is not None else "", "proj_fp": pj if pj is not None else "",
             "proj_total_season": proj_total if proj_total is not None else "",
             "value": round(value, 2) if value is not None else "",

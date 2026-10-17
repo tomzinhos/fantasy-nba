@@ -6,3 +6,6 @@ SEASON = 2027  # temporada 2026-27 usa o ano de término no ESPN; confirmar na p
 NBA_SEASONS = ["2024-25", "2025-26"]  # temporadas regulares usadas como insumo
 NBA_PRESEASON = "2026-27"  # pré-temporada atual (pode vir vazia até os jogos começarem)
 DATA_DIR = Path(__file__).parent / "data"
+
+# defaultPositionId do ESPN -> posição. Confirmado com jogadores conhecidos (ids 0, 6 e 7 não apareceram).
+POSITION = {1: "PG", 2: "SG", 3: "SF", 4: "PF", 5: "C"}

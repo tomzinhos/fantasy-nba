@@ -87,18 +87,18 @@
 
 ## Starting five por time (* = posição preenchida com fallback)
 
-- **Pedrosa's Air Ballers** (218.9): PG: CJ McCollum / SG: Jamal Murray / SF: Caleb Wilson / PF: Pascal Siakam / C: Nikola Jokic
-- **Drinho Magic** (218.1): SG: De'Aaron Fox / SF: Kawhi Leonard / PF: Kevin Durant / C: Victor Wembanyama / PG: Nikola Vucevic*
-- **Zuzzo's Gambit** (214.5): PG: Dejounte Murray / SG: Luka Doncic / SF: Deni Avdija / PF: Julius Randle / C: Walker Kessler
-- **Little River Hustlers** (212.8): PG: Anthony Edwards / SG: James Harden / SF: Trey Murphy III / PF: Jalen Johnson / C: Onyeka Okongwu
-- **Os Coringas do Vitinho** (211.2): PG: Ty Jerome / SG: Cade Cunningham / SF: Amen Thompson / PF: Paolo Banchero / C: Anthony Davis
-- **Ipiranga's Drunkballers** (203.5): PG: Reed Sheppard / SG: Shai Gilgeous-Alexander / SF: Mikal Bridges / C: Alperen Sengun / PF: LaMelo Ball*
-- **Thanos** (200.8): PG: Derrick White / SG: Tyrese Maxey / SF: LeBron James / PF: Draymond Green / C: Joel Embiid
-- **Darela's Basket Union** (200.1): PG: Kevin Porter Jr. / SG: Trae Young / SF: OG Anunoby / PF: Giannis Antetokounmpo / C: Jalen Duren
-- **Pinetrees' Dachshunds** (192.4): PG: Kyshawn George / SG: Jalen Brunson / SF: Scottie Barnes / PF: Jalen Williams / C: Bam Adebayo
-- **PC Comrades** (186.2): PG: Ryan Rollins / SG: Collin Gillespie / SF: Jaylen Brown / PF: Lauri Markkanen / C: Domantas Sabonis
-- **NewJeans** (179.1): PG: Darryn Peterson / SG: Payton Pritchard / SF: AJ Dybantsa / PF: Jayson Tatum / C: Karl-Anthony Towns
-- **Farateam** (169.0): PG: Donovan Mitchell / SG: Damian Lillard / SF: Cooper Flagg / PF: Evan Mobley / C: Ivica Zubac
+- **Pedrosa's Air Ballers** (218.9): PG: Jamal Murray / SG: CJ McCollum / SF: Caleb Wilson / PF: Pascal Siakam / C: Nikola Jokic
+- **Drinho Magic** (218.1): PG: De'Aaron Fox / SF: Kawhi Leonard / PF: Kevin Durant / C: Victor Wembanyama / SG: Nikola Vucevic*
+- **Zuzzo's Gambit** (214.5): PG: Luka Doncic / SG: Dejounte Murray / SF: Deni Avdija / PF: Julius Randle / C: Walker Kessler
+- **Little River Hustlers** (212.8): PG: James Harden / SG: Anthony Edwards / SF: Trey Murphy III / PF: Jalen Johnson / C: Onyeka Okongwu
+- **Os Coringas do Vitinho** (211.2): PG: Cade Cunningham / SG: Ty Jerome / SF: Amen Thompson / PF: Paolo Banchero / C: Anthony Davis
+- **Ipiranga's Drunkballers** (203.5): PG: Shai Gilgeous-Alexander / SG: Reed Sheppard / SF: Mikal Bridges / C: Alperen Sengun / PF: LaMelo Ball*
+- **Thanos** (200.8): PG: Tyrese Maxey / SG: Derrick White / SF: LeBron James / PF: Draymond Green / C: Joel Embiid
+- **Darela's Basket Union** (200.1): PG: Trae Young / SG: Kevin Porter Jr. / SF: OG Anunoby / PF: Giannis Antetokounmpo / C: Jalen Duren
+- **Pinetrees' Dachshunds** (192.4): PG: Jalen Brunson / SG: Kyshawn George / SF: Scottie Barnes / PF: Jalen Williams / C: Bam Adebayo
+- **PC Comrades** (186.2): PG: Collin Gillespie / SG: Ryan Rollins / SF: Jaylen Brown / PF: Lauri Markkanen / C: Domantas Sabonis
+- **NewJeans** (179.1): PG: Payton Pritchard / SG: Darryn Peterson / SF: AJ Dybantsa / PF: Jayson Tatum / C: Karl-Anthony Towns
+- **Farateam** (169.0): PG: Damian Lillard / SG: Donovan Mitchell / SF: Cooper Flagg / PF: Evan Mobley / C: Ivica Zubac
 
 ## Top 15 jogadores por teto
 

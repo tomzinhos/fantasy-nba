@@ -65,6 +65,7 @@ python espn_collector.py && python nba_stats.py && python espn_projections.py
 python build_base.py && python calibrate_teto.py && python rankings.py
 python export_csv.py
 python make_report.py
+python history_collector.py   # só precisa rodar uma vez por temporada
 ```
 
 | # | Script | O que faz | Saída (`data/`) |
@@ -77,6 +78,7 @@ python make_report.py
 | 6 | `rankings.py` | Power rank, projeção, starting five, depth e teto | `rankings.md`, `player_values.csv` |
 | 7 | `export_csv.py` | CSV amigável dos elencos | `elencos_atuais.csv` |
 | 8 | `make_report.py` | PDF com rankings e uma página por time | `reports/*.pdf` |
+| 9 | `history_collector.py` | Histórico da liga por temporada (classificação final, campanha), ligado ao dono de cada time | `historico.csv`, `historico_donos.csv` |
 
 Os confrontos ficam em `data/schedule.csv` (20 semanas, 6 jogos por semana). As conferências ficam em `data/teams.csv`.
 
@@ -100,6 +102,12 @@ O repositório é do Tom. Duas opções:
 Para quem só vai ler: basta o PDF e o CSV, e dá para mandar esses dois arquivos direto, sem GitHub.
 
 Quem quiser propor melhorias: fork, branch, pull request.
+
+## Histórico da liga
+
+`data/historico.csv` traz a classificação final e a campanha de cada time desde 2023-24 (primeira temporada disponível no ESPN).
+Os nomes dos times mudam, então a franquia é seguida pelo **dono**: `data/historico_donos.csv` resume títulos, finais, pódios e trajetória de cada um.
+Exemplos: Ajej's Ball Hustlers virou Little River Hustlers; Best Estimated virou Thanos; Pinetrees' Bulldogs e LOUD viraram Pinetrees' Dachshunds.
 
 ## Metodologia (resumo)
 

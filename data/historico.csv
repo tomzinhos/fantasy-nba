@@ -1,0 +1,39 @@
+temporada,season_id,n_times,time,dono,co_donos,posicao_final,seed,vitorias,derrotas,empates,pontos_pro,pontos_contra,time_atual_do_dono
+2023-24,2024,12,Zuzzo's Gambit,Victor Caruzzo,,1,1,17,3,0,30973.0,23612.0,Zuzzo's Gambit
+2023-24,2024,12,Ajej's Ball Hustlers,Thiago Ajej,,2,2,16,4,0,26857.0,24279.0,Little River Hustlers
+2023-24,2024,12,BH Moringas,Lucas Silva,,3,4,13,7,0,26757.0,22557.0,
+2023-24,2024,12,Best Estimated,Tico Loyola,,4,3,15,5,0,27507.0,22998.0,Thanos
+2023-24,2024,12,Jo's Scary Team,João Pedro K,,5,7,9,11,0,26311.0,25936.0,Zuzzo's Gambit (co-dono)
+2023-24,2024,12,NewJeans,Tom Almeida,,6,5,10,10,0,23828.0,24166.0,NewJeans
+2023-24,2024,12,Darela's Basket Union,Raul Darela,,7,10,7,13,0,21560.0,23794.0,Darela's Basket Union
+2023-24,2024,12,Os Coringas do Vitinho,Victor Martinoja,,8,6,10,10,0,22705.0,23020.0,Os Coringas do Vitinho
+2023-24,2024,12,Pedrosa's Air Ballers,Pedro Pedrosa,,9,8,9,11,0,22346.0,23951.0,Pedrosa's Air Ballers
+2023-24,2024,12,Pira Cougars ,Pedro Bilar,,10,12,1,19,0,17839.0,25163.0,
+2023-24,2024,12,LOUD,Filipe Rodrigues,,11,9,8,12,0,22369.0,23428.0,Pinetrees' Dachshunds
+2023-24,2024,12,Suzano Pandas,Matheus Hosomi,,12,11,5,15,0,18679.0,24827.0,
+2024-25,2025,14,Jo's Scary Team,João Pedro K,,1,1,17,3,0,26020.0,22130.0,Zuzzo's Gambit (co-dono)
+2024-25,2025,14,Zuzzo's Gambit,Victor Caruzzo,,2,2,15,5,0,24611.0,21579.0,Zuzzo's Gambit
+2024-25,2025,14,NewJeans,Tom Almeida,,3,4,14,6,0,23922.0,20469.0,NewJeans
+2024-25,2025,14,Farateam,Daniel Farati,,4,3,15,5,0,24303.0,21898.0,Farateam
+2024-25,2025,14,Pedrosa's Air Ballers,Pedro Pedrosa,,5,6,13,7,0,24430.0,22602.0,Pedrosa's Air Ballers
+2024-25,2025,14,PC Comrades,Paulo Cardoso,,6,7,9,10,1,22412.0,22293.0,PC Comrades
+2024-25,2025,14,Ajej's Ball Hustlers,Thiago Ajej,,7,5,13,7,0,25299.0,22011.0,Little River Hustlers
+2024-25,2025,14,Araraquara’s Molequesquete,Iago Canet,,8,10,8,12,0,22766.0,23237.0,Ipiranga's Drunkballers
+2024-25,2025,14,BH Moringas,Lucas Silva,,9,11,7,13,0,20043.0,22524.0,
+2024-25,2025,14,Darela's Basket Union,Raul Darela,,10,8,9,11,0,22678.0,23129.0,Darela's Basket Union
+2024-25,2025,14,Golden Nugget,Enzo Lotto,,11,13,3,17,0,16686.0,22854.0,
+2024-25,2025,14,Pinetrees' Bulldogs,Filipe Rodrigues,,12,9,8,11,1,20181.0,21845.0,Pinetrees' Dachshunds
+2024-25,2025,14,Os Coringas do Vitinho,Victor Martinoja,,13,12,6,14,0,22196.0,23234.0,Os Coringas do Vitinho
+2024-25,2025,14,Best Estimated,Tico Loyola,,14,14,2,18,0,18729.0,24471.0,Thanos
+2025-26,2026,12,Little River Hustlers,Thiago Ajej,,1,1,18,2,0,27640.0,22436.0,Little River Hustlers
+2025-26,2026,12,Zuzzo's Gambit,Victor Caruzzo,João Pedro K,2,2,13,7,0,25653.0,22931.0,Zuzzo's Gambit
+2025-26,2026,12,NewJeans,Tom Almeida,,3,3,13,7,0,23708.0,22804.0,NewJeans
+2025-26,2026,12,Darela's Basket Union,Raul Darela,,4,4,12,8,0,24675.0,21123.0,Darela's Basket Union
+2025-26,2026,12,Ipiranga's Drunkballers,Iago Canet,,5,6,11,9,0,24661.0,22605.0,Ipiranga's Drunkballers
+2025-26,2026,12,Pedrosa's Air Ballers,Pedro Pedrosa,,6,7,8,12,0,24254.0,24422.0,Pedrosa's Air Ballers
+2025-26,2026,12,Pinetrees' Dachshunds,Filipe Rodrigues,,7,5,12,8,0,22781.0,23092.0,Pinetrees' Dachshunds
+2025-26,2026,12,Golden Nugget,Enzo Lotto,,8,9,7,13,0,19700.0,21591.0,
+2025-26,2026,12,PC Comrades,Paulo Cardoso,,9,12,5,15,0,18864.0,23564.0,PC Comrades
+2025-26,2026,12,Os Coringas do Vitinho,Victor Martinoja,,10,8,8,12,0,20027.0,20767.0,Os Coringas do Vitinho
+2025-26,2026,12,Farateam,Daniel Farati,,11,10,7,13,0,19035.0,22557.0,Farateam
+2025-26,2026,12,Thanos,Tico Loyola,,12,11,6,14,0,19489.0,22595.0,Thanos
